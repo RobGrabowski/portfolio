@@ -1,0 +1,58 @@
+
+body{
+    height: auto;
+    min-height: 100% !important;
+    
+}
+.landing{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #253149;
+}
+li{
+    list-style-type: none;
+}
+ul{
+    padding-left: 0;
+}
+
+.container-fluid.background{
+    background-color: #ffffff;
+    z-index: 1;
+}
+.logo{
+    font-family: 'Oregano', cursive;
+}
+.buffer {
+    padding-top: 20px; 
+}
+.landing h2{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+.case-1{
+    border: 1px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgba(37,49,73, .25);
+    width: 90%;
+    min-height: 400px;
+    padding-top: 40px;
+}
+
+.case-1 img{
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    float: left;
+    padding-left: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.mobile-nav-2{
+    display: none;
+}
+.intro-text{
+    letter-spacing: 2px;
+}
