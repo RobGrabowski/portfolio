@@ -11,6 +11,9 @@ body{
 }
 li{
     list-style-type: none;
+    padding-bottom: 5px;
+    font-size: 1.5em;
+    text-transform: uppercase;
 }
 ul{
     padding-left: 0;
@@ -23,6 +26,27 @@ ul{
 .logo{
     font-family: 'Oregano', cursive;
 }
+.logo h1{
+    font-size: 5.2em;
+    text-shadow: 1px 1px 0 #767471;
+    letter-spacing: -3.16px;
+    -webkit-text-stroke: 1px #E3E3E3;
+    font-family: 'Oregano', cursive;
+   -webkit-text-fill-color: ##E3E3E3; /* Will override color (regardless of order) */
+   
+}
+
+
+/*
+ rg: 
+border: 1px solid #E3E3E3;
+font-family: Oregano-Regular;
+font-size: 72px;
+color: #253149;
+letter-spacing: -3.16px;
+text-shadow: 1px 1px 0 #767471;
+*/
+
 .buffer {
     padding-top: 20px; 
 }
@@ -30,29 +54,81 @@ ul{
     font-family: 'Maven Pro', sans-serif;
     font-size: 2em;
     text-transform: uppercase;
+    letter-spacing: 2.66px;
+    font-weight: 400;
 }
-.case-1{
+
+.case-study h2{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2.66px;
+    font-weight: 400;
+}
+.case-study{
     border: 1px;
     border-style: solid;
     border-width: 4px;
     border-color: rgba(37,49,73, .25);
     width: 90%;
     min-height: 400px;
-    padding-top: 40px;
+    padding-top: 5%;
+    margin: auto;
 }
 
-.case-1 img{
+.case-study img{
     height: 250px;
-    width: 250px;
+    width: auto;
     display: inline-block;
     float: left;
-    padding-left: 40px;
     margin-left: 40px;
     margin-right: 40px;
+    border-color: #979797;
+    border-width: 4px;
+    border-style: solid;
+}
+.case-study h3{
+    width: 90%;
+    font-weight: 300;
+    letter-spacing: 1.37px;
+    line-height: 1.5;
+    font-size: 1.5em;
+}
+.case-study button{
+    background-color: #D8D8D8;
+    border: none;
+    color: #253149;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 1em;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    max-width: 150px;
+    width: 100%;
 }
 .mobile-nav-2{
     display: none;
 }
 .intro-text{
-    letter-spacing: 2px;
+    color: #253149;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    padding-top: 20px;
+    letter-spacing: 2.14px;
+    line-height: 1.5;
+}
+.responsive-menu-1{
+    padding-top: 20px;
+    color: #253149;
+}
+.responsive-menu-1 li a{
+    color: #253149;
+    font-family: 'Maven Pro', sans-serif;
+    letter-spacing: 1.06px;
 }
