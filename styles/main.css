@@ -65,7 +65,7 @@ body{
     padding-left: 100px;
     padding-right: 100px;
 }
-.problem h2, .solution h2, .process h2{
+.problem h2, .solution h2, .process h2, .conclusion h2{
     padding-top: 80px;
 }
 .section-header{
@@ -79,19 +79,19 @@ body{
     margin-top: 0;
     
 }
-.problem p, .solution p, .solution a, .process p, .study-results li{
+.problem p, .solution p, .solution a, .process p, .study-results li, .conclusion p, .conclusion a{
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 1.2em;
     letter-spacing: 1.37px;
     line-height: 1.5;
 }
-.solution{
+.solution, .conclusion{
     background-color: #253149;
     color: #fff;
     min-height: 1200px;
 }
-.solution h2, .solution p, .solution a{
+.solution h2, .solution p, .solution a, .conclusion h2, .conclusion p, .conclusion a{
     color: #fff;
 }
 .solution img{
@@ -99,7 +99,7 @@ body{
     margin: auto;
     padding-top: 20px;
 }
-.solution a, .solution a:hover{
+.solution a, .solution a:hover, .conclusion a, .conclusion a:hover{
     text-align: center;
     width: 100%;
     margin: auto;
@@ -122,6 +122,15 @@ body{
     font-size: 1.2em;
     letter-spacing: 1.37px;
     line-height: 1.5;
+}
+.process .mockups{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    padding-top: 20px;
 }
 .sub-section-header{
     padding-bottom: 10px;
@@ -197,3 +206,55 @@ body{
     padding-left: 10%;
     font-weight: 300;
 }
+.typography{
+    display: inline-block;
+    width: 90%;
+}
+.lora{
+    font-family: 'Lora', serif;
+    font-weight: 400;
+}
+.caps{
+    text-transform: uppercase;
+    font-style: inherit;
+}
+.img-pad {
+    padding-top: 20px;
+}
+.left-justify{
+    text-align: center;
+}
+/*
+.typography h1{
+    font-size: 2em;
+    
+}
+.typography h2{
+    font-size: 1.5em;
+    padding-top: 0;
+}
+.typography h3{
+    font-size: 1.3em;
+}
+.typography .header-three{
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-style: inherit;
+}
+.typography p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+}
+.typography .typo-left{
+    float: left;
+    width: 50%;
+    display: inline-block;
+    padding-left: 10%;
+}
+
+.typography .typo-right{
+    float: right;
+    width: 50%;
+    display: inline-block;
+}
+*/
