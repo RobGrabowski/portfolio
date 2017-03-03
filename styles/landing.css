@@ -15,6 +15,9 @@ li{
     font-size: 1.5em;
     text-transform: uppercase;
 }
+li a{
+    
+}
 ul{
     padding-left: 0;
 }
@@ -84,7 +87,7 @@ text-shadow: 1px 1px 0 #767471;
     margin-left: 40px;
     margin-right: 40px;
     border-color: #979797;
-    border-width: 4px;
+    border-width: 6px;
     border-style: solid;
 }
 .case-study h3{
@@ -94,7 +97,7 @@ text-shadow: 1px 1px 0 #767471;
     line-height: 1.5;
     font-size: 1.5em;
 }
-.case-study button{
+.case-study .button{
     background-color: #D8D8D8;
     border: none;
     color: #253149;
@@ -111,6 +114,11 @@ text-shadow: 1px 1px 0 #767471;
     letter-spacing: 1px;
     max-width: 150px;
     width: 100%;
+    margin-top: 20px;
+}
+.case-study .button a{
+    color: #253149;
+    text-decoration: none;
 }
 .mobile-nav-2{
     display: none;
@@ -127,8 +135,12 @@ text-shadow: 1px 1px 0 #767471;
     padding-top: 20px;
     color: #253149;
 }
-.responsive-menu-1 li a{
+.responsive-menu-1 li a, .responsive-menu-1 li a:hover{
     color: #253149;
     font-family: 'Maven Pro', sans-serif;
     letter-spacing: 1.06px;
+    text-decoration: none;
+}
+.case-study.winery img{
+    border-color: #7F4C48;
 }
