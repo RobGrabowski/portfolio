@@ -38,6 +38,15 @@ ul{
    -webkit-text-fill-color: ##E3E3E3; /* Will override color (regardless of order) */
    
 }
+.logo h1.a{
+    font-size: 5.2em;
+    text-shadow: 1px 1px 0 #767471;
+    letter-spacing: -3.16px;
+    -webkit-text-stroke: 1px #E3E3E3;
+    font-family: 'Oregano', cursive;
+   -webkit-text-fill-color: ##E3E3E3; /* Will override color (regardless of order) */
+   
+}
 
 
 /*
@@ -77,6 +86,7 @@ text-shadow: 1px 1px 0 #767471;
     min-height: 400px;
     padding-top: 5%;
     margin: auto;
+    margin-top: 20px;
 }
 
 .case-study img{
@@ -97,7 +107,7 @@ text-shadow: 1px 1px 0 #767471;
     line-height: 1.5;
     font-size: 1.5em;
 }
-.case-study .button{
+.case-study .button, .intro-text .lets-chat{
     background-color: #D8D8D8;
     border: none;
     color: #253149;
@@ -116,7 +126,10 @@ text-shadow: 1px 1px 0 #767471;
     width: 100%;
     margin-top: 20px;
 }
-.case-study .button a{
+.intro-text .lets-chat{
+    margin-top: 0;
+}
+.case-study .button a, .intro-text .lets-chat a{
     color: #253149;
     text-decoration: none;
 }
@@ -143,4 +156,23 @@ text-shadow: 1px 1px 0 #767471;
 }
 .case-study.winery img{
     border-color: #7F4C48;
+}
+
+.footer {
+    color: #253149;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    padding-top: 50px;
+    letter-spacing: 2.14px;
+    line-height: 1.5;
+    width: 90%;
+    margin: auto;
+    
+        
+}
+
+.links-container a, .links-container a:hover, .links-container a:visited{
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: 1em;
 }
