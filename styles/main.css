@@ -26,6 +26,9 @@ body{
     text-transform: uppercase;
     letter-spacing: 3.48px;
 }
+.wines .summary h2{
+    padding-top: 12%;
+}
 .summary p{
     text-align: center;
     font-size: 1.4em;
@@ -38,11 +41,14 @@ body{
     line-height: 1.6;
 }
 .study-intro-text{
-    background-image: url(../assets/glasses3.png);
+    
     background-repeat: no-repeat;
     background-size: 120%;
     min-height: 340px;
     color: #020307;
+}
+.wines .study-intro-text{
+    background-image: url(../assets/winery/corks.png);
 }
 .study-intro-text h2{
     text-align: center;
@@ -56,6 +62,9 @@ body{
     font-weight: 400;
     
 }
+.wines .study-intro-text h2{
+    padding: 30px 0;
+}
 .intro-content{
     padding-top: 100px;
 }
@@ -63,6 +72,9 @@ body{
     background-color: #F0F0F0;
     color: #020307;
     min-height: 475px;
+}
+.wines .problem{
+    min-height: 375px;
 }
 .study-pad{
     color: #020307;
@@ -94,6 +106,9 @@ body{
     background-color: #253149;
     color: #fff;
     min-height: 1200px;
+}
+.wines .solution {
+    min-height: 1400px;
 }
 .conclusion{
     min-height: 600px;
@@ -170,6 +185,7 @@ body{
 .img-wrapper{
     display: block;
     padding-bottom: 50px;
+    padding-top: 10px;
 }
 /*
 .personas{

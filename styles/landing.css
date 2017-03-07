@@ -170,9 +170,22 @@ text-shadow: 1px 1px 0 #767471;
     
         
 }
+.wines .footer{
+    width: 95%;
+}
 
 .links-container a, .links-container a:hover, .links-container a:visited{
-    padding-right: 20px;
+/*    padding-right: 20px;*/
     text-decoration: none;
     font-size: 1em;
+    color: #253149;
+    font-weight: 400;
+}
+
+.links-container a:after{
+    content: '  \2219 ';
+    
+}
+.links-container a:last-child:after {
+content: '';
 }
