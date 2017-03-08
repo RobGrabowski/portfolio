@@ -2,6 +2,9 @@ body{
     font-family: 'Open Sans', sans-serif;
     color: #020307;
 }
+table{
+    width: 100%;
+}
 .summary{
     background-color: #253149;
     color: #fff;
@@ -50,6 +53,10 @@ body{
 .wines .study-intro-text{
     background-image: url(../assets/winery/corks.png);
 }
+.tasty-trucks .study-intro-text{
+    background-image: url(../assets/tasty-trucks/soho-taco.jpg);
+    background-position: center;
+}
 .study-intro-text h2{
     text-align: center;
     width: 80%;
@@ -62,8 +69,13 @@ body{
     font-weight: 400;
     
 }
+.tasty-trucks .study-intro-text h2{
+    color: #fff;
+    width: 50%;
+}
 .wines .study-intro-text h2{
     padding: 30px 0;
+    font-size: 2.5em;
 }
 .intro-content{
     padding-top: 100px;
@@ -75,6 +87,12 @@ body{
 }
 .wines .problem{
     min-height: 375px;
+}
+.tasty-trucks .problem{
+    min-height: 325px;
+}
+.tasty-trucks .solution{
+    min-height: 900px;
 }
 .study-pad{
     color: #020307;
@@ -111,7 +129,10 @@ body{
     min-height: 1400px;
 }
 .conclusion{
-    min-height: 600px;
+    min-height: 700px;
+}
+.wines .conclusion{
+    min-height: 750px;
 }
 .solution h2, .solution p, .solution a, .conclusion h2, .conclusion p, .conclusion a{
     color: #fff;
@@ -166,12 +187,15 @@ body{
 .process .study-results{
     padding-left: 120px;
     padding-top: 10px;
+    margin-left: 10px;
 }
 .study-results li{
     list-style-type: disc;
-    list-style-position: inside;
+    list-style-position: outside;
     text-transform: none;
-    line-height: 1.8;
+    line-height: 1.5;
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
 .process img{
     width: 100%;
