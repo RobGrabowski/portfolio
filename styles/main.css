@@ -56,6 +56,7 @@ table{
 .tasty-trucks .study-intro-text{
     background-image: url(../assets/tasty-trucks/soho-taco.jpg);
     background-position: center;
+    background-size: 100%;
 }
 .study-intro-text h2{
     text-align: center;
@@ -72,6 +73,8 @@ table{
 .tasty-trucks .study-intro-text h2{
     color: #fff;
     width: 50%;
+    text-shadow: 0px 4px 4px rgba(72,71,71,1);
+    line-height: 1.4;
 }
 .wines .study-intro-text h2{
     padding: 30px 0;
@@ -92,7 +95,7 @@ table{
     min-height: 325px;
 }
 .tasty-trucks .solution{
-    min-height: 1000px;
+    min-height: 800px;
 }
 .study-pad{
     color: #020307;
@@ -133,6 +136,9 @@ table{
 }
 .wines .conclusion{
     min-height: 750px;
+}
+.tasty-trucks .conclusion {
+    min-height: 500px;
 }
 .solution h2, .solution p, .solution a, .conclusion h2, .conclusion p, .conclusion a{
     color: #fff;
@@ -206,6 +212,9 @@ table{
     padding: 0px 0;
     
 }
+.tasty-wires{
+    padding-bottom: 20px !important;
+}
 .tasty-wires img{
     display: inline-block;
     width: 30%;
@@ -223,6 +232,9 @@ table{
     display: block;
     padding-bottom: 50px;
     padding-top: 10px;
+}
+.tasty-elements{
+    padding-bottom: 20px !important;
 }
 /*
 .personas{
@@ -282,6 +294,7 @@ table{
 }
 .conclusion a, .conclusion a:hover, .conclusion a:visited{
     text-align: left;
+    text-decoration: none;
 }
 .conclusion .link-to-site{
     font-size: 1.2em;
