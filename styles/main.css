@@ -17,7 +17,7 @@ table{
     
 }
 .fixed-nav{
-    position: fixed !important;
+    position: relative;
 }
 .summary h2 {
     padding-top: 80px;
@@ -42,9 +42,10 @@ table{
     padding-top: 20px;
     letter-spacing: 1.37px;
     line-height: 1.6;
+    padding-bottom: 20px;
 }
 .study-intro-text{
-    
+    background-image: url(../assets/glasses3.png);
     background-repeat: no-repeat;
     background-size: 120%;
     min-height: 340px;
@@ -126,13 +127,14 @@ table{
 .solution, .conclusion{
     background-color: #253149;
     color: #fff;
-    min-height: 1200px;
+    min-height: 1400px;
 }
+
 .wines .solution {
     min-height: 1400px;
 }
 .conclusion{
-    min-height: 700px;
+    min-height: 600px;
 }
 .wines .conclusion{
     min-height: 750px;
@@ -161,9 +163,10 @@ table{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-style: italic;
-    font-size: 1.2em;
+    font-size: 1.6em;
     letter-spacing: 1.37px;
     line-height: 1.5;
+    padding-bottom: 20px;
 }
 .process h5{
     font-family: 'Open Sans', sans-serif;
@@ -295,6 +298,7 @@ table{
 .conclusion a, .conclusion a:hover, .conclusion a:visited{
     text-align: left;
     text-decoration: none;
+    padding-bottom: 50px;
 }
 .conclusion .link-to-site{
     font-size: 1.2em;
@@ -302,37 +306,71 @@ table{
     font-weight: 400;
     
 }
-/*
-.typography h1{
-    font-size: 2em;
-    
-}
-.typography h2{
-    font-size: 1.5em;
-    padding-top: 0;
-}
-.typography h3{
-    font-size: 1.3em;
-}
-.typography .header-three{
-    font-family: 'Lora', serif;
-    font-weight: 400;
-    font-style: inherit;
-}
-.typography p{
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.2em;
-}
-.typography .typo-left{
-    float: left;
-    width: 50%;
-    display: inline-block;
-    padding-left: 10%;
+
+@media (min-width: 1200px){
+    .fixed-nav{
+        position: fixed !important;
+    }
 }
 
-.typography .typo-right{
-    float: right;
-    width: 50%;
-    display: inline-block;
+@media (max-width: 1200px ){
+    li{
+        display: inline-block;
+        padding-right: 20px;
+    }
+    .logo {
+        text-align: center;
+    }
+    .responsive-menu-1{
+        text-align: center;
+    }
+    .intro-text{
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
+    .intro-content{
+        padding-top: 30px;
+    }
+    .wines .solution{
+        min-height: 20%;
+    }
+    .wines .study-intro-text h2{
+        font-size: 1.8em;
+    }
+    .wines .summary h2{
+        font-size: 2em;
+    }
+    
+    .pad-right{
+        width: 100%;
+    }
+    
+    .study-pad{
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 10%;
+        text-align: center;
+        
+    }
+    .survey-question{
+        padding-left: 0;
+    }
+    .process .study-results{
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: left;
+    }
+    .problem p, .solution p, .solution a, .process p, .study-results li, .conclusion p, .conclusion a{
+        font-size: 1.1em;
+    }
+    .study-results li:before{
+        content:"· ";
+    }
+    .conclusion .link-to-site{
+        text-align: center !important;
+    }
+    .footer{
+        text-align: center;
+    }
 }
-*/
