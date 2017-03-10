@@ -61,7 +61,7 @@ table{
 .tasty-trucks .study-intro-text{
     background-image: url(../assets/tasty-trucks/soho-taco.jpg);
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
 }
 .study-intro-text h2{
     text-align: center;
@@ -103,7 +103,7 @@ table{
     min-height: 325px;
 }
 .tasty-trucks .solution{
-    min-height: 800px;
+    min-height: 0;
 }
 .study-pad{
     color: #020307;
@@ -325,6 +325,17 @@ table{
     
 }
 
+/* CONTACT PAGE */
+.contact {
+    padding-top: 10%;
+}
+.about {
+    padding-top: 5%;
+}
+.about p{
+    text-align: left;
+}
+
 @media (min-width: 1200px){
     .fixed-nav{
         position: fixed !important;
@@ -412,6 +423,7 @@ table{
     }
     .footer{
         text-align: center;
+        line-height: 2;
     }
     
 }
@@ -448,5 +460,9 @@ table{
     }
     .problem p:last-child{
         padding-bottom: 20%;
+    }
+    .footer{
+        text-align: center;
+        line-height: 2;
     }
 }

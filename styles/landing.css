@@ -194,3 +194,46 @@ text-shadow: 1px 1px 0 #767471;
 .links-container a:last-child:after {
 content: '';
 }
+
+@media (max-width: 1200px ){
+    .logo {
+        text-align: center;
+    }
+    .responsive-menu-1{
+        text-align: center;
+    }
+    .intro-text{
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
+    .intro-content{
+        margin: auto;
+    }
+    .case-study {
+        text-align: center;
+    }
+    .case-study img{
+       margin-bottom: 10%;
+       float: none;
+       margin-left: 5%;
+       margin-right: 5%;
+    }
+    .case-study h2{
+        text-align: center;
+        padding-bottom: 5%;
+        margin: auto;
+    }
+    .case-study h3{
+        margin: auto;
+        font-size: 1.3em;
+        text-align: center;
+    }
+    .read-more-wrapper{
+        margin-bottom: 10%;
+    }
+    .footer{
+        text-align: center;
+        line-height: 2;
+    }
+}
