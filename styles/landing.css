@@ -132,6 +132,7 @@ text-shadow: 1px 1px 0 #767471;
 }
 .intro-text .lets-chat{
     margin-top: 0;
+    margin-bottom: 50px;
 }
 .case-study .button a, .intro-text .lets-chat a{
     color: #253149;

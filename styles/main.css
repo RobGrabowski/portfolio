@@ -8,7 +8,7 @@ table{
 .summary{
     background-color: #253149;
     color: #fff;
-    min-height: 462px;
+
     
 }
 .right-pad{
@@ -44,15 +44,19 @@ table{
     line-height: 1.6;
     padding-bottom: 20px;
 }
+.summary p:last-child{
+    padding-bottom: 20%;
+}
 .study-intro-text{
     background-image: url(../assets/glasses3.png);
     background-repeat: no-repeat;
-    background-size: 120%;
+    background-size: cover;
     min-height: 340px;
     color: #020307;
 }
 .wines .study-intro-text{
     background-image: url(../assets/winery/corks.png);
+    background-size: 100%;
 }
 .tasty-trucks .study-intro-text{
     background-image: url(../assets/tasty-trucks/soho-taco.jpg);
@@ -63,13 +67,16 @@ table{
     text-align: center;
     width: 80%;
     margin: auto;
-    padding-bottom: 20px;
     color: #020307;
     font-family: 'Maven Pro', sans-serif;
     letter-spacing: 2.06px;
     font-size: 2.2em;
     font-weight: 400;
-    
+    padding: 5%;
+    padding-bottom: 0%;
+}
+.study-intro-text h2:first-child{
+    padding-top: 10%;
 }
 .tasty-trucks .study-intro-text h2{
     color: #fff;
@@ -82,7 +89,7 @@ table{
     font-size: 2.5em;
 }
 .intro-content{
-    padding-top: 100px;
+/*    padding-top: 100px;*/
 }
 .problem, .process{
     background-color: #F0F0F0;
@@ -102,6 +109,9 @@ table{
     color: #020307;
     padding-left: 100px;
     padding-right: 100px;
+}
+.study-pad p:last-child{
+    padding-bottom: 10%;
 }
 .problem h2, .solution h2, .process h2, .conclusion h2{
     padding-top: 80px;
@@ -123,15 +133,20 @@ table{
     font-size: 1.2em;
     letter-spacing: 1.37px;
     line-height: 1.8;
+    margin-bottom: 0;
+    padding-bottom: 2%;
 }
 .solution, .conclusion{
     background-color: #253149;
     color: #fff;
     min-height: 1400px;
 }
+.problem p:last-child{
+    padding-bottom: 10%;
+}
 
 .wines .solution {
-    min-height: 1400px;
+    min-height: 10%;
 }
 .conclusion{
     min-height: 600px;
@@ -155,9 +170,12 @@ table{
     width: 100%;
     margin: auto;
     display: block;
-    padding-top: 20px;
+    padding-top: 5%;
+    padding-bottom: 10%;
     text-decoration: none;
     color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
 }
 .process h3{
     font-family: 'Open Sans', sans-serif;
@@ -276,7 +294,7 @@ table{
     font-family: 'Maven Pro', sans-serif;
     font-size: 1.4em;
     color: #020307;
-    margin-top: 40px;
+    margin-top: 2%;
     padding-left: 10%;
     font-weight: 300;
 }
@@ -293,7 +311,7 @@ table{
     font-style: inherit;
 }
 .img-pad {
-    padding-top: 20px;
+    padding-top: 0px;
 }
 .conclusion a, .conclusion a:hover, .conclusion a:visited{
     text-align: left;
@@ -330,16 +348,24 @@ table{
         margin: auto;
     }
     .intro-content{
-        padding-top: 30px;
+        margin: auto;
+    }
+    .solution{
+        min-height: 20%;
     }
     .wines .solution{
         min-height: 20%;
     }
-    .wines .study-intro-text h2{
-        font-size: 1.8em;
+    
+    .summary h2{
+        font-size: 2em;
+        width: 90%;
+        margin: auto;
     }
     .wines .summary h2{
         font-size: 2em;
+        width: 90%;
+        margin: auto;
     }
     
     .pad-right{
@@ -349,12 +375,18 @@ table{
     .study-pad{
         padding-left: 10%;
         padding-right: 10%;
-        padding-bottom: 10%;
-        text-align: center;
+        padding-bottom: 5%;
+        text-align: left;
         
+    }
+    .study-pad p:last-child{
+        padding-bottom: 20%;
     }
     .survey-question{
         padding-left: 0;
+    }
+    .process h5{
+        padding-bottom: 1%;
     }
     .process .study-results{
         padding-left: 10%;
@@ -363,14 +395,58 @@ table{
     }
     .problem p, .solution p, .solution a, .process p, .study-results li, .conclusion p, .conclusion a{
         font-size: 1.1em;
+        padding-bottom: 5%;
+    }
+    .solution p:last-child{
+        padding-bottom: 0;
+    }
+    .solution a:last-child{
+        padding-bottom: 10%;
+        padding-top: 0%;
     }
     .study-results li:before{
         content:"· ";
     }
     .conclusion .link-to-site{
-        text-align: center !important;
+        text-align: left !important;
     }
     .footer{
         text-align: center;
+    }
+    
+}
+@media (max-width: 768px ){
+    .summary p{
+        text-align: left;
+    }
+    .study-intro-text h2{
+        font-size: 1.6em;
+        line-height: 1.5;
+    }
+    .study-intro-text h2:last-child{
+        padding-bottom: 10%;
+    }
+    .stories{
+        display: inline;
+    }
+    .wines .study-intro-text h2{
+        font-size: 2em;
+    }
+    .study-intro-text{
+        min-height: 180px;
+        background-size: cover;
+    }
+    .intro-content{
+/*        height: 180px;*/
+        margin: auto;
+        padding-top: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .wines .intro-content{
+        display: flex;
+    }
+    .problem p:last-child{
+        padding-bottom: 20%;
     }
 }
