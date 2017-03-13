@@ -20,7 +20,7 @@ table{
     position: relative;
 }
 .summary h2 {
-    padding-top: 80px;
+    padding-top: 10%;
     text-align: center;
     padding-bottom: 20px;
     font-size: 3em;
@@ -113,6 +113,11 @@ table{
 .study-pad p:last-child{
     padding-bottom: 10%;
 }
+.link-to-site{
+    padding-bottom: 2%;
+    padding-top: 5%;
+}
+
 .problem h2, .solution h2, .process h2, .conclusion h2{
     padding-top: 80px;
 }
@@ -179,6 +184,60 @@ table{
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2.2px;
+}
+.link-to-site, .link-to-site:hover{
+  
+    color: #fff;
+    padding: 3% 1% !important;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    font-size: 1em;   
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    max-width: 200px;
+    width: 20em;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.tasty-trucks .link-to-site a:hover{
+  
+    max-width: 325px;
+    width: 30em;
+   
+    
+}
+.link-to-site a{
+    padding: 3%;
+    border: 2px solid white;
+    margin-bottom: 50%;
+/*    margin-top: 20%;*/
+    text-align: center !important;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.link-to-site a:hover{
+    padding: 3%;
+    border: 2px solid white;
+    margin-bottom: 50%;
+/*    margin-top: 20%;*/
+}
+.link-to-site.tasty-trucks{
+    width: 30em;
+    max-width: 325px;
+    padding-left: 0px !important;
+}
+.tasty-trucks .link-to-site{
+    width: 30em;
+    max-width: 325px;
+}
+ .conclusion .tasty-trucks{
+        margin-left: 100px !important;
 }
 .process h3{
     font-family: 'Open Sans', sans-serif;
@@ -322,11 +381,16 @@ table{
     padding-bottom: 50px;
 }
 .conclusion .link-to-site{
-    font-size: 1.2em;
+    font-size: 1.1em;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 300;
     
 }
+.ype, .left-link{
+        margin-left: 100px !important;
+        padding-left: 0px !important;
+        
+    }
 
 /* CONTACT PAGE */
 .contact {
@@ -423,20 +487,26 @@ table{
         padding-bottom: 0;
     }
     .solution a:last-child{
-        padding-bottom: 10%;
-        padding-top: 0%;
+        padding-bottom: 3%;
+        padding-top: 3%;
     }
     .study-results li:before{
         content:"· ";
     }
     .conclusion .link-to-site{
-        text-align: left !important;
+        text-align: center !important;
     }
     .footer{
         text-align: center;
         line-height: 2;
     }
-    
+    .conclusion .left-justify{
+/*        margin-left: 10% !important;*/
+    }
+    .conclusion .tasty-trucks, .ype, .left-link{
+        margin-left: 10% !important;
+        
+    }
 }
 @media (max-width: 768px ){
     .summary p{
@@ -480,6 +550,32 @@ table{
         display: block;
         width: 100%;
         margin-left: 0;
+    }
+   
+    .link-to-site.tasty-trucks{
+        width: 30em;
+        max-width: 225px;
+        padding-left: 0px !important;
+    }
+    .tasty-trucks .link-to-site{
+        width: 30em;
+        max-width: 225px;
+        margin-top: 5%;
+    }
+   .link-to-site.left-justify{
+        width: 30em;
+        max-width: 225px;
+        padding-left: 0px !important;
+    }
+    .tasty-trucks .link-to-site a:hover{
+  
+        max-width: 225px;
+        width: 30em;
+    }
+    
+    .conclusion .tasty-trucks, .ype, left-link{
+        margin-left: 10% !important;
+        margin-top: 5%;
     }
     .footer{
         text-align: center;
