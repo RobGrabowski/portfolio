@@ -85,7 +85,7 @@ table{
     line-height: 1.4;
 }
 .wines .study-intro-text h2{
-    padding: 30px 0;
+    padding: 15% 0;
     font-size: 2.5em;
 }
 .intro-content{
@@ -139,7 +139,10 @@ table{
 .solution, .conclusion{
     background-color: #253149;
     color: #fff;
-    min-height: 1400px;
+    min-height: 20%;
+}
+.link-box{
+    border: 1px;
 }
 .problem p:last-child{
     padding-bottom: 10%;
@@ -335,6 +338,14 @@ table{
 .about p{
     text-align: left;
 }
+.contact-rob{
+    text-decoration: none;
+    color: #fff;
+}
+.contact-rob:hover{
+    text-decoration: none;
+    color: #fff;
+}
 
 @media (min-width: 1200px){
     .fixed-nav{
@@ -460,6 +471,10 @@ table{
     }
     .problem p:last-child{
         padding-bottom: 20%;
+    }
+    .stories table{
+        width: 80%;
+        margin: auto;
     }
     .tasty-wires img{
         display: block;
