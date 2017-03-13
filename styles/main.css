@@ -208,8 +208,10 @@ table{
 .tasty-trucks .link-to-site a:hover{
   
     max-width: 325px;
+/*
     width: 30em;
    
+*/
     
 }
 .link-to-site a{
