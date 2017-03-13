@@ -388,7 +388,7 @@ table{
     font-weight: 300;
     
 }
-.ype, .left-link{
+.ype, .left-link, .ype:hover, .left-link:hover{
         margin-left: 100px !important;
         padding-left: 0px !important;
         
