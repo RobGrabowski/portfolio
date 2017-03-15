@@ -91,19 +91,22 @@ text-shadow: 1px 1px 0 #767471;
     margin-top: 20px;
 }
 
-.case-study img{
+.case-study img, .view-other-studies img{
     height: 250px;
     width: auto;
     display: inline-block;
     float: left;
     margin-left: 40px;
     margin-right: 40px;
-    border-color: #979797;
+    border-color: #979797 !important;
     border-width: 6px;
     border-style: solid;
 }
 .tasty-trucks img{
-    border-color: #7D1311;
+    border-color: #7D1311 !important;
+}
+.tone-control img{
+    border-color: #FFE8D1 !important;
 }
 .case-study h3{
     width: 90%;
@@ -161,7 +164,7 @@ text-shadow: 1px 1px 0 #767471;
     text-decoration: none;
 }
 .case-study.winery img{
-    border-color: #7F4C48;
+    border-color: #7F4C48 !important;
 }
 
 .footer {
@@ -171,8 +174,11 @@ text-shadow: 1px 1px 0 #767471;
     padding-top: 50px;
     letter-spacing: 2.14px;
     line-height: 1.5;
-    width: 90%;
+    width: 95%;
     margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
     
         
 }
@@ -195,6 +201,7 @@ text-shadow: 1px 1px 0 #767471;
 .links-container a:last-child:after {
 content: '';
 }
+
 
 @media (max-width: 1200px ){
     .logo {
@@ -234,7 +241,7 @@ content: '';
         margin-bottom: 10%;
     }
     .footer{
-        text-align: center;
+        
         line-height: 2;
     }
 }

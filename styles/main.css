@@ -1,6 +1,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
     color: #020307;
+    height: 100%;
 }
 table{
     width: 100%;
@@ -53,6 +54,14 @@ table{
     background-size: cover;
     min-height: 340px;
     color: #020307;
+    
+    z-index: 999999;
+    right: 0;
+    height: 60%;
+    text-align: center;
+
+    /* Solution part I. */
+    display: table;
 }
 .wines .study-intro-text{
     background-image: url(../assets/winery/corks.png);
@@ -63,6 +72,13 @@ table{
     background-position: center;
     background-size: cover;
 }
+.tones .study-intro-text{
+/*    background-image: url(../assets/tone-control/pedal-board_1000.jpg);*/
+    background:  linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../assets/tone-control/pedal-board_1000.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
 .study-intro-text h2{
     text-align: center;
     width: 80%;
@@ -72,11 +88,21 @@ table{
     letter-spacing: 2.06px;
     font-size: 2.2em;
     font-weight: 400;
-    padding: 5%;
-    padding-bottom: 0%;
+/*    padding: 5%;*/
+    padding-bottom: 2%;
+}
+.tones .study-intro-text h2{
+    color: #fff;
 }
 .study-intro-text h2:first-child{
-    padding-top: 10%;
+/*    padding-top: 8%;*/
+}
+.tasty-trucks .study-intro-text h2:first-child{
+/*    padding-top: 9%;*/
+}
+.tones .study-intro-text h2:first-child{
+/*    padding-top: 12%;*/
+    text-shadow: 2px 2px 2px rgba(000,000,000,1);
 }
 .tasty-trucks .study-intro-text h2{
     color: #fff;
@@ -90,6 +116,10 @@ table{
 }
 .intro-content{
 /*    padding-top: 100px;*/
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
 }
 .problem, .process{
     background-color: #F0F0F0;
@@ -164,6 +194,9 @@ table{
 }
 .tasty-trucks .conclusion {
     min-height: 500px;
+}
+.tones .conclusion{
+    min-height: 400px;
 }
 .solution h2, .solution p, .solution a, .conclusion h2, .conclusion p, .conclusion a{
     color: #fff;
@@ -404,6 +437,14 @@ table{
 .about p{
     text-align: left;
 }
+.about a{
+    text-decoration: none;
+    color: #fff;
+}
+.about a:hover{
+    text-decoration: none;
+    color: #fff;
+}
 .contact-rob{
     text-decoration: none;
     color: #fff;
@@ -411,6 +452,70 @@ table{
 .contact-rob:hover{
     text-decoration: none;
     color: #fff;
+}
+
+/* VIEW OTHER CASE STUDIES */
+.view-studies .section-header{
+    text-align: left;
+    padding-top: 10%;
+    width: 95%;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+.view-studies .view-other-studies{
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 100%;
+    width: 100%;
+}
+.case-study-image{
+    margin-right: 1%;
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    width: 32%;
+}
+.case-study-image:last-child{
+    margin-right: 0;
+    
+}
+.case-study-image a{
+    text-decoration: none;
+    color: #020307;
+}
+.case-study-image a:hover{
+   text-decoration: none;
+    color: #020307;
+}
+.view-other-studies img{
+    margin-left: 0;
+    margin-right: 0;
+    height: 100%;
+    width: 100%;
+}
+.case-study-image .image-title{
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 1.36px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 5%;
+    display: block;
+    clear: both;
+}
+.view-other-studies .border-tim img{
+/*    border-color: #7F4C48;*/
+}
+.view-other-studies .border-tasty img{
+/*    border-color: #7D1311;*/
+}
+/* END VIEW OTHER CASE STUDIES*/
+
+@media (max-width: 1259px){
+    .case-study-image{
+        width: 32%;
+    }
 }
 
 @media (min-width: 1200px){
@@ -501,6 +606,7 @@ table{
     .footer{
         text-align: center;
         line-height: 2;
+        
     }
     .conclusion .left-justify{
 /*        margin-left: 10% !important;*/
@@ -519,13 +625,16 @@ table{
         line-height: 1.5;
     }
     .study-intro-text h2:last-child{
-        padding-bottom: 10%;
+/*        padding-bottom: 10%;*/
     }
     .stories{
         display: inline;
     }
     .wines .study-intro-text h2{
         font-size: 2em;
+    }
+    .tones .study-intro-text h2:first-child{
+/*        padding-top: 20%;*/
     }
     .study-intro-text{
         min-height: 180px;
@@ -582,5 +691,14 @@ table{
     .footer{
         text-align: center;
         line-height: 2;
+    }
+}
+@media (max-width: 553px){
+    .case-study-image{
+        width: 100%;
+        padding-bottom: 15%;
+    }
+    .footer{
+        text-align: center;
     }
 }
