@@ -492,6 +492,7 @@ table{
     margin-right: 0;
     height: 100%;
     width: 100%;
+    border-color: #979797 !important;
 }
 .case-study-image .image-title{
     font-size: 1.2em;
