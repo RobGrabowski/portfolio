@@ -427,7 +427,7 @@ table{
         
     }
 
-/* CONTACT PAGE */
+/* CONTACT & ABOUT PAGE */
 .contact {
     padding-top: 10%;
 }
@@ -445,6 +445,27 @@ table{
     text-decoration: none;
     color: #fff;
 }
+.top-wrapper{
+    width: 80%;
+    margin: auto;
+    
+}
+.about-img{
+    float: left;
+    width: 40%;
+}
+.about-img img{
+    width: 225px;
+    height: 225px;
+}
+.about-right{
+    float: left;
+    width: 50%;
+}
+.clear{
+    clear: both;
+    padding-bottom: 5%;
+}
 .contact-rob{
     text-decoration: none;
     color: #fff;
@@ -453,6 +474,7 @@ table{
     text-decoration: none;
     color: #fff;
 }
+/* END CONTACT & ABOUT PAGE */
 
 /* VIEW OTHER CASE STUDIES */
 .view-studies .section-header{
