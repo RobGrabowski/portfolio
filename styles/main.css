@@ -452,7 +452,7 @@ table{
 }
 .about-img{
     float: left;
-    width: 40%;
+    width: 35%;
 }
 .about-img img{
     width: 225px;
@@ -460,7 +460,7 @@ table{
 }
 .about-right{
     float: left;
-    width: 50%;
+    width: 45%;
 }
 .clear{
     clear: both;
@@ -638,6 +638,9 @@ table{
         margin-left: 10% !important;
         
     }
+    .about-right{
+        padding-top: 5%; 
+    }
 }
 @media (max-width: 768px ){
     .summary p{
@@ -714,6 +717,9 @@ table{
     .footer{
         text-align: center;
         line-height: 2;
+    }
+    .about-right{
+        display: none;
     }
 }
 @media (max-width: 553px){
