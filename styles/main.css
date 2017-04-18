@@ -650,8 +650,11 @@ table{
         font-size: 1.6em;
         line-height: 1.5;
     }
+    .study-intro-text h2:first-child{
+        padding-top: 5%;
+    }
     .study-intro-text h2:last-child{
-/*        padding-bottom: 10%;*/
+        padding-bottom: 5%;
     }
     .stories{
         display: inline;
