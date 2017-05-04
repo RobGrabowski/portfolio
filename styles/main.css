@@ -131,7 +131,6 @@ table{
 }
 .wines .problem img{
     width: 100%;
-    padding-top: 5%;
 }
 .tasty-trucks .problem{
     min-height: 325px;
@@ -278,7 +277,7 @@ table{
  .conclusion .tasty-trucks{
         margin-left: 100px !important;
 }
-.process h3{
+.process h3, .problem h3{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-style: italic;
