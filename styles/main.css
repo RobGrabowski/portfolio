@@ -129,6 +129,10 @@ table{
 .wines .problem{
     min-height: 375px;
 }
+.wines .problem img{
+    width: 100%;
+    padding-top: 5%;
+}
 .tasty-trucks .problem{
     min-height: 325px;
 }
