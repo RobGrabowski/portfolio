@@ -75,10 +75,23 @@ AAAASUVORK5CYII=" rel="icon" type="image/x-icon" />
               </div>
               <div class = "col-sm-12 col-lg-9 hero-right">
                   
-                    <div class="case-study">
-                      <img src="assets/eyestylist-2x.png" alt="Your Private EyeStylist landing page image" />
+                  <div class="case-study tasty-trucks">
+                       
+                    <img src="assets/tasty-trucks/three-screens8.png" alt="Tasty Trucks images" />
+                      <div class="tasty-trucks-content-wrapper">
+                      <div class="tasty-trucks-content">
+                          
+                      </div>           
+                      </div>
+                    </div>  
+                  
+                  <div class="case-study stylist">
+<!--
+                        <img src="assets/eyestylist-2x.png" alt="Your Private EyeStylist landing page image" />
+
                       <h2>Your Private EyeStylist</h2>
                       <h3>A site design for a Licensed Optician and Eyewear Stylist helping clients be the best version of themselves.</h3>
+-->
                       <div class="read-more-wrapper">
                          <a href="case-studies/your-private-eyestylist.html"><div class="button">Read More</div> </a>
                       </div>
@@ -88,23 +101,17 @@ AAAASUVORK5CYII=" rel="icon" type="image/x-icon" />
                     </div>
                   
                      <div class="case-study winery">
+<!--
                       <img src="assets/timothymalonewines-2x.png" alt="Your Private EyeStylist landing page image" />
                       <h2>Timothy Malone Wines</h2>
                       <h3>Willamette Valley, Oregon winery making wines that are reflective of a time and place.</h3>
+-->
                      <div class="read-more-wrapper">
                          <a href="case-studies/timothy-malone-wines.html"><div class="button">Read More</div></a>  
                      </div>
                     </div>
                   
-                  <div class="case-study tasty-trucks">
-                      <img src="assets/tasty-trucks/three-screens8.png" alt="Tasty Trucks images" />
-                      <h2>Tasty Trucks</h2>
-                      <h3>A design for an iOS application that allows customers to find food trucks near them, view a menu, select items for purchase, and checkout.</h3>
-                      <div class="read-more-wrapper">
-                        <a href="case-studies/tasty-trucks.html"><div class="button">Read More</div></a> 
-                      </div>
-                               
-                    </div>
+                  
                   
                   <div class="case-study tone-control">
                       <img src="assets/tonecontrol-2x.png" alt="Tone Control image" />
@@ -152,7 +159,9 @@ AAAASUVORK5CYII=" rel="icon" type="image/x-icon" />
                    </div>
               </div>
            </div>
+
            
+
         </div>
 -->
          
@@ -162,23 +171,59 @@ AAAASUVORK5CYII=" rel="icon" type="image/x-icon" />
         <script type="text/javascript">
             jQuery(function($){
                      $( '.bars-1' ).click(function(){
-                     $('.responsive-menu').slideToggle(600);
+                        $('.responsive-menu').slideToggle(600);
                      })
                      
                      $( '.bars-2' ).click(function(){
-                     $('.responsive-menu-2').slideToggle(600);
+                        $('.responsive-menu-2').slideToggle(600);
                      })
-                })
+                    
+                    $('.tasty-trucks-content').css({opacity:0});
+//                    $('.tasty-trucks h3').hide();
+                    $('.tasty-trucks-content').mouseenter(function(e) {
+                             //Do nothing if .header was not directly clicked
+                        console.log('in here');
+                            $('.tasty-trucks-content').css({opacity:1});
+                            e.preventDefault();
+                            e.stopPropagation();
+                                $('.tasty-trucks img').animate({opacity:.3},900);
+                               
+                                $('.tasty-trucks-content').html('<h2>Tasty Trucks</h2><h3>A design for an iOS application that allows customers to find food trucks near them, view a menu, select items for purchase, and checkout.</h3><div class="read-more-wrapper"><a href="case-studies/tasty-trucks.html"><div class="button">Read More</div></a></div>');
+                                 $('.tasty-trucks-content').fadeIn(700);
+//                            $('.tasty-trucks h3').fadeIn();
+//                        }, function() {
+//                        $(this).stop().animate({opacity:1},500)
+//                            $('.tasty-trucks-content').fadeOut().css({zindex:1});
+////                            $('.tasty-trucks h3').fadeOut();
+                         
+                       });
+//                  $('.tasty-trucks-content').mouseleave(function(e) {
+//                        e.preventDefault();
+//                        e.stopPropagation();
+//                        
+//                        $('.tasty-trucks img').animate({opacity:1},200);    
+//                        $('.tasty-trucks-content').html('');
+//
+//                        $('.tasty-trucks-content').css({opacity:0});
+//                      
+//                    });
+
+                }); 
+    
+              
         </script>
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
           })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
           ga('create', 'UA-33471517-2', 'auto');
           ga('send', 'pageview');
+
         </script> 
         
         
      </body>
  </html>
+

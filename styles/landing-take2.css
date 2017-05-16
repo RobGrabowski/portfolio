@@ -30,22 +30,26 @@ ul{
     font-family: 'Oregano', cursive;
     cursor: pointer;
 }
+.logo-container{
+    float: left;
+}
+
 .logo h1{
     font-size: 5.2em;
-    text-shadow: 1px 1px 0 #767471;
+/*    text-shadow: 1px 1px 0 #767471;*/
     letter-spacing: -3.16px;
-    -webkit-text-stroke: 1px #E3E3E3;
-    font-family: 'Oregano', cursive;
+/*    -webkit-text-stroke: 1px #E3E3E3;*/
+     font-family: 'Oregano', cursive;
    -webkit-text-fill-color: ##E3E3E3; /* Will override color (regardless of order) */
    
 }
 .logo h1.a{
     font-size: 5.2em;
-    text-shadow: 1px 1px 0 #767471;
+/*    text-shadow: 1px 1px 0 #767471;*/
     letter-spacing: -3.16px;
-    -webkit-text-stroke: 1px #E3E3E3;
+/*    -webkit-text-stroke: 1px #E3E3E3;*/
     font-family: 'Oregano', cursive;
-   -webkit-text-fill-color: ##E3E3E3; /* Will override color (regardless of order) */
+/*   -webkit-text-fill-color: ##E3E3E3;  Will override color (regardless of order) */
    
 }
 
@@ -79,30 +83,61 @@ text-shadow: 1px 1px 0 #767471;
     font-weight: 400;
 }
 .case-study{
+/*
     border: 1px;
     border-style: solid;
     border-width: 4px;
     border-color: rgba(37,49,73, .25);
-    width: 90%;
+*/
+    width: 100%;
     min-height: 400px;
     padding-top: 5%;
     margin: auto;
     margin-top: 20px;
+    height: 900px;
 }
 
 .case-study img, .view-other-studies img{
-    height: 250px;
+    height: 700px;
     width: auto;
     display: inline-block;
     float: left;
-    margin-left: 40px;
-    margin-right: 40px;
+/*  margin-left: 40px;
+   margin-right: 40px;*/
+/*
     border-color: #979797 !important;
     border-width: 6px;
     border-style: solid;
+*/
 }
-.tasty-trucks img{
+.case-study.tone-control{
+    height: 900px;
+}
+.case-study.tone-control img{
+    height: 600px;
+    display: inline-block;
+}
+.tasty-trucks img, .eyestylist img{
     border-color: #7D1311 !important;
+    float: right;
+    width: auto;
+}
+.eyestylist img{
+    float: right;
+}
+.eyestylist{
+    padding-top: 0;
+    margin-top: 0;
+}
+.tasty-trucks-text-wrapper, .eyestylist-text-wrapper{
+    float: left;
+    width: 30%;
+    padding-top: 10%;
+}
+.tone-control-text-wrapper{
+    display: inline-block;
+    float: right;
+    width: 25%;
 }
 .tone-control img{
     border-color: #FFE8D1 !important;
@@ -150,20 +185,29 @@ text-shadow: 1px 1px 0 #767471;
 .intro-text{
     color: #253149;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    padding-top: 20px;
+    font-weight: 500;
+    padding-top: 50px;
     letter-spacing: 2.14px;
     line-height: 1.5;
+    font-size: 1.2em;
 }
 .responsive-menu-1{
-    padding-top: 20px;
+    padding-top: 2.7%;
     color: #253149;
+    float: right;
+    width: 36%;
+}
+.responsive-menu-1 li{
+    float: left;
+    padding-left: 5%;
 }
 .responsive-menu-1 li a, .responsive-menu-1 li a:hover{
     color: #253149;
     font-family: 'Maven Pro', sans-serif;
     letter-spacing: 1.06px;
     text-decoration: none;
+    font-size: 1.2em;
+    
 }
 .case-study.winery img{
     border-color: #7F4C48 !important;
