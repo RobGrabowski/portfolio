@@ -118,7 +118,7 @@ text-shadow: 1px 1px 0 #767471;
 }
 .case-study.tone-control img{
     height: auto;
-    width: 70%;
+/*    width: 70%;*/
     display: inline-block;
 }
 .tasty-trucks img, .eyestylist img{
@@ -308,7 +308,7 @@ content: '';
        float: none;
        margin-left: 5%;
        margin-right: 5%;
-        width: 60%;
+        width: 80%;
     }
 /*
     .case-study.tone-control img{
@@ -318,7 +318,7 @@ content: '';
         width: 60%;
     }
 */
-    .tasty-trucks-text-wrapper  {
+    .tasty-trucks-text-wrapper, .tone-control-text-wrapper, .eyestylist-text-wrapper, .winery-text-wrapper  {
         padding-top: 0;
         width: 100%;
         float: none;
@@ -332,6 +332,7 @@ content: '';
         margin: auto;
         font-size: 1.3em;
         text-align: center;
+         width: 70%;
     }
     .read-more-wrapper{
         margin-bottom: 10%;
@@ -343,7 +344,7 @@ content: '';
 }
 @media (max-width: 1024px ){
     .tasty-trucks img, .eyestylist img, .tone-control img, .winery img {
-        width: 80%!important;
+        width: 80%;
     }
 }
 @media (max-width: 768px ){
