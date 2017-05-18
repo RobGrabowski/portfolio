@@ -166,9 +166,9 @@ text-shadow: 1px 1px 0 #767471;
     font-size: 1.5em;
 }
 .case-study .button, .intro-text .lets-chat{
-    background-color: #D8D8D8;
+    background-color: #253149;
     border: none;
-    color: #253149;
+    color: #ffffff;
     padding: 10px 10px;
     text-align: center;
     text-decoration: none;
@@ -189,7 +189,7 @@ text-shadow: 1px 1px 0 #767471;
     margin-bottom: 50px;
 }
 .case-study .button a, .intro-text .lets-chat a{
-    color: #253149;
+    color: #ffffff;
     text-decoration: none;
 }
 .mobile-nav-2{
