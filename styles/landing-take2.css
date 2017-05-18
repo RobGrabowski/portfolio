@@ -205,7 +205,7 @@ text-shadow: 1px 1px 0 #767471;
     font-size: 1.2em;
 }
 .responsive-menu-1{
-    padding-top: 4%;
+    padding-top: 2%;
     color: #253149;
     float: right;
     width: auto;
@@ -421,8 +421,8 @@ content: '';
         float: none;
     }
 }
-@media (max-width: 438px ){
-    .winery{
-/*        padding-top: 60%;*/
+@media (max-width: 1400px ){
+    .responsive-menu-1{
+        padding-top: 3%;
     }
 }
