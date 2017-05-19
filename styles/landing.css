@@ -98,7 +98,9 @@ text-shadow: 1px 1px 0 #767471;
     height: 100%;
     
 }
-
+.case-study.tasty-trucks{
+    margin-top: 0;
+}
 .case-study img, .view-other-studies img{
     height: auto;
     width: 70%;
