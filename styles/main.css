@@ -12,6 +12,13 @@ table{
 
     
 }
+.logo-container{
+    padding-bottom: 10%;
+    width: 100%;
+}
+.intro-text{
+    font-weight: 300;
+}
 .right-pad{
     width: 95%;
     margin: auto;
@@ -139,7 +146,7 @@ table{
     min-height: 325px;
 }
 .tasty-trucks .solution{
-    min-height: 0;
+/*    min-height: 0;*/
 }
 .study-pad{
     color: #020307;
@@ -342,7 +349,7 @@ table{
 .tasty-wires img{
     display: inline-block;
     width: 30%;
-    
+    float: left;
 }
 .tasty-wires img{
     margin-left: 2.5%;
@@ -353,7 +360,7 @@ table{
     
 }
 .img-wrapper{
-    display: block;
+    display: inline-block;
     padding-bottom: 50px;
     padding-top: 10px;
 }
@@ -521,6 +528,8 @@ table{
     height: 100%;
     width: 100%;
     border-color: #979797 !important;
+    border-width: 6px;
+    border-style: solid;
 }
 .case-study-image .image-title{
     font-size: 1.2em;
