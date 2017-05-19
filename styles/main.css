@@ -550,6 +550,9 @@ table{
 }
 /* END VIEW OTHER CASE STUDIES*/
 
+.links-container {
+    padding-top: 10%;
+}
 @media (max-width: 1259px){
     .case-study-image{
         width: 32%;
