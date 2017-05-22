@@ -180,7 +180,7 @@ AAAASUVORK5CYII=" rel="icon" type="image/x-icon" />
                     
                     $('.tasty-trucks-content').css({opacity:0});
 //                    $('.tasty-trucks h3').hide();
-                    $('.tasty-trucks-content').mouseenter(function(e) {
+                    $('.tasty-trucks').mouseover(function(e) {
                              //Do nothing if .header was not directly clicked
                         console.log('in here');
                             $('.tasty-trucks-content').css({opacity:1});
@@ -190,11 +190,11 @@ AAAASUVORK5CYII=" rel="icon" type="image/x-icon" />
                                
                                 $('.tasty-trucks-content').html('<h2>Tasty Trucks</h2><h3>A design for an iOS application that allows customers to find food trucks near them, view a menu, select items for purchase, and checkout.</h3><div class="read-more-wrapper"><a href="case-studies/tasty-trucks.html"><div class="button">Read More</div></a></div>');
                                  $('.tasty-trucks-content').fadeIn(700);
-//                            $('.tasty-trucks h3').fadeIn();
-//                        }, function() {
-//                        $(this).stop().animate({opacity:1},500)
-//                            $('.tasty-trucks-content').fadeOut().css({zindex:1});
-////                            $('.tasty-trucks h3').fadeOut();
+                            $('.tasty-trucks h3').fadeIn();
+                        }, function() {
+                        $(this).stop().animate({opacity:1},500)
+                            $('.tasty-trucks-content').fadeOut().css({zindex:1});
+//                            $('.tasty-trucks h3').fadeOut();
                          
                        });
 //                  $('.tasty-trucks-content').mouseleave(function(e) {
