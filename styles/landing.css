@@ -129,6 +129,10 @@ text-shadow: 1px 1px 0 #767471;
     height: auto;
     width: 70%;
 }
+.tasty-trucks video{
+    width: 70%;
+    height: auto;
+}
 .eyestylist img{
     float: right;
 }
