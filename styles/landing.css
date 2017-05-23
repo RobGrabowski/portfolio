@@ -128,6 +128,7 @@ text-shadow: 1px 1px 0 #767471;
     float: right;
     height: auto;
     width: 70%;
+    cursor: pointer;
 }
 .tasty-trucks video{
     width: 70%;
