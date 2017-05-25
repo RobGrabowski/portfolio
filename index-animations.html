@@ -139,7 +139,7 @@ AAAASUVORK5CYII=" rel="icon" type="image/x-icon" />
                             <a href="case-studies/tasty-trucks.html"><div class="button">Read More</div></a> 
                           </div>
                       </div>
-                      <div class="media-container">   
+                      <div id="tasty-media-container" class="media-container">   
                           <img id="tasty-img" src="assets/tasty-trucks/tasty-trucks-3-home2.png" alt="Tasty Trucks images" />
                           <video id="tasty-video" width="960" height="720" loop="loop">
                               <source src="assets/tasty-trucks-transitions.m4v" type="video/mp4">
@@ -149,7 +149,13 @@ AAAASUVORK5CYII=" rel="icon" type="image/x-icon" />
                     </div>  
                   
                    <div class="case-study tone-control">
-                      <img src="assets/tone-control/tone-control-home-min.png" alt="Tone Control image" />
+                       <div class="media-container">  
+                           <img id="tone-img" src="assets/tone-control/tone-control-home-min.png" alt="Tone Control image" />
+                            <video id="tone-video" width="960" height="720" loop="loop">
+                                  <source src="assets/tone-control-transitions.m4v" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>  
+                       </div>
                       <div class="tone-control-text-wrapper">
                           <h2>Tone Control</h2>
                           <h3>Tone Control is a fictitious (for now) boutique guitar pedal shop for players that are looking for high-quality sonic coloration. </h3>
@@ -247,7 +253,8 @@ AAAASUVORK5CYII=" rel="icon" type="image/x-icon" />
 
                         // run test on resize of the window
                         $(window).resize(checkSize);
-                         $('.tasty-trucks video').css({opacity:0});
+                        $('.tasty-trucks video').css({display:'none'});
+                        $('.tone-control video').css({display:'none'});
                     });
 
                     //Function to the css rule
@@ -255,7 +262,7 @@ AAAASUVORK5CYII=" rel="icon" type="image/x-icon" />
 //                        console.log('here1');
                         if ($(".tasty-trucks-text-wrapper").css("text-align") == "center" ){
 //                            console.log('here2');
-                            $('#tasty-img').insertBefore('#tasty-text-wrapper');
+                            $('#tasty-media-container').insertBefore('#tasty-text-wrapper');
                             $('#eyestylist-img').insertBefore('#eyestylist-text-wrapper');
                         }
                     }
@@ -270,24 +277,53 @@ AAAASUVORK5CYII=" rel="icon" type="image/x-icon" />
 //                    });
                 
                     $('.tasty-trucks .media-container').click(function(e) {
-      
+                        console.log('here');
+                         $('.case-study.tasty-trucks').css({'marginBottom':'5%'});
                         $('.tasty-trucks img').css({display:'none'});
 //                        $('.tasty-trucks video').css({display:'inline'});
+                        $('.tasty-trucks video').css({display:'inline'});
                         $('.tasty-trucks video').css({opacity:1});
+                        
                         var myVideo = document.getElementById("tasty-video"); 
                         myVideo.load(); 
                         myVideo.play(); 
 
                     });
+                    
                     $('.tasty-trucks .media-container').mouseleave(function(e) {
                 
                         $('.tasty-trucks img').css({display:'inline'});
                         $('.tasty-trucks video').css({opacity:0});
+                        $('.tasty-trucks video').css({display:'none'});
+                        $('.case-study.tasty-trucks').css({'marginBottom':''});
+
+                    });
+
+                    $('.tone-control .media-container').click(function(e) {
+
+                        $('.case-study.tone-control').css({'marginBottom':'5%'});
+                        $('.tone-control img').css({display:'none'});
+//                      $('.tasty-trucks video').css({display:'inline'});
+                        $('.tone-control video').css({display:'inline'});
+                        $('.tone-control video').css({opacity:1});
+
+                        var myToneVideo = document.getElementById("tone-video"); 
+                        myToneVideo.load(); 
+                        myToneVideo.play(); 
 
                     });
                 
-                
-                })
+                    $('.tone-control .media-container').mouseleave(function(e) {
+
+                        $('.tone-control img').css({display:'inline'});
+                        $('.tone-control video').css({opacity:0});
+                        $('.tone-control video').css({display:'none'});
+                        $('.case-study.tone-control').css({'marginBottom':'20%'});
+
+                    });
+
+
+                    })
         </script>
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
