@@ -282,9 +282,11 @@ AAAASUVORK5CYII=" rel="icon" type="image/x-icon" />
                     var timer;
                     $('.tasty-trucks .media-container').hoverIntent(function(e) {
                         $('.case-study.tasty-trucks').css({'marginBottom':'5%'});
-                        $('.tasty-trucks img').css({display:'none'});
+                        $('.tasty-trucks img').fadeOut(700);
+                        //$('.tasty-trucks img').css({display:'none'});
                         $('.tasty-trucks video').css({display:'inline'});
-                        $('.tasty-trucks video').css({opacity:1});
+//                        $('.tasty-trucks video').css({opacity:1});
+                        $('.tasty-trucks video').fadeIn('900').delay(700);
                         
                         var myVideo = document.getElementById("tasty-video"); 
                         myVideo.load(); 
