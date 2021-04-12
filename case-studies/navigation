@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+ <html>
+     <head>
+        <meta charset="UTF-8">
+         <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700|Open+Sans:300,300i,400,400i,600|Oregano" rel="stylesheet">
+         <!-- Used for Typography section --->
+         <link href="https://fonts.googleapis.com/css?family=Lora|Poppins:600|Roboto:700" rel="stylesheet">
+         <link href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAACXBIWXMAAAsSAAALEgHS3X78AAAC
+oklEQVQoz3WSW0iTAQCFzz9/p9PI6aazOZbzshKl5iUR5yUrmywsu440FSvQIhXxwlK6LJNQ0+gi
+SIUQZS+hhdA0sBDChZpLa7Gc98vUqUtRtzna/Hta+GDf4/dwOBwOQVEUACAnt6SMAiG3bFidA/ic
+hnuVFXJsQRgh9T8ljVUAQKtSVahTK1cAwEm/aBE3Nr0ZG/w5KmEyPRj2TYr+dUAX93thmhEfF9sJ
+ALLsgkkvT49bHG9PweikIWp13Xx9elxnPnwoUUUDgB3uDBoAtLx6RLQ2PyZio/b2G1etJQBwLqtg
+mSSd+YlR/tIqhdxjQDPMMps3wGKzigGA9qyhupvD9ri7P0wIAJBl5Su6+7SRdGfSnpNbUjagGWGK
+QnhtRcWl7QCQcjDi9ZGESLtx0XANAEgAcGM47xnU6CCMkFLubgwkiUU2n520tLl5opnjw8KSYbrQ
+sUVHl7r8pDRuzI7N1Jt3aoYIiqJw9sLV3vmltQOuLnREi4KXqxRyLwA4Lssz/bFturW3PCUyLhXp
++74NcR1BgQIeQgJ3GWkO4evDQkx4gFj5sc/zfv3DFwDg58s2jY7PoLbuQXZosN/Li+clU1cyjz7h
++3Eof563pb5GwaYBgKsL3QoAlbcrVCFC/sagdiodAKxWSwMAfP8187xcXiKXlxbuVvWPKKf0BoLL
+YRoAgAYAXF+W3tGExXTv0GgnyIobCklTY53i2JHooZ5+LSlOTqdk2QVrwxOzyjOpibb15bnwfwFv
+27/khQZz9QDwoUudYzJbMG80vwOA9529MWkpMZ+SE0T6IAHXmpEW32Y3G7yra+tXAIBwPHErmZeL
+rT1qLT1I4GebNRjJzNNJP4qL8vdhG8jtpD/PK8nJKezzmmmDPCGJtS7MjifgP/wFPNkGEdco6JEA
+AAAASUVORK5CYII=" rel="icon" type="image/x-icon" />
+         <link rel="stylesheet" type="text/css" href="../styles/normalize.css">
+          <link rel="stylesheet" type="text/css" href="../styles/landing.css">
+         <link rel="stylesheet" type="text/css" href="../styles/main.css">
+         <title>Rob Grabowski | UX/UI Designer and Developer</title>
+         <meta name="viewport" content="width=device-width, initial-scale=1"> 
+         <!-- Bootstrap -->
+        <link href = "../styles/bootstrap.min.css" rel = "stylesheet">
+     </head>
+     <body>
+         <div class = "container-fluid background">
+   
+           <div class = "row buffer">
+              <div class = "col-sm-12 col-lg-2 col-lg-offset-1 fixed-nav">
+                  <div class="logo-container">
+                      <div class="logo">
+                          <h1>RG</h1>
+                      </div>
+                    
+                  </div>
+                  <div class="responsive-menu-secondary">
+                            <ul>
+                                <li><a href="../index.html" class="navbar-link">Portfolio</a></li>
+<!--                                <li><a href=".." class="navbar-link">Toolbox</a></li>-->
+                                <li><a href="../about.html" class="navbar-link">About</a></li>
+                                <li><a href="../assets/rob-grabowski-resume.pdf" class="navbar-link">Resume</a></li>
+                                <li><a href="../contact.html" class="navbar-link">Contact</a></li>    
+                            </ul>
+                  </div>
+                  <div class="intro-text">
+                      Hi, I'm Rob Grabowski, a process based problem-solving designer, developer, and end-user advocate. I aim to make it easy to accomplish things without it being more trouble than it’s worth.
+                   </div>
+                  <div class="intro-text">
+                       Like what you see?
+                   </div>
+                   <div class="intro-text">
+                    <div class="button lets-chat"><a href="/contact.html">Let's Chat</a></div>
+                  </div>
+                  <div class="mobile-nav-2">
+                         <i class="fa fa-bars bars-2" aria-hidden="true"></i>
+                         
+
+                         <div class="responsive-menu-secondary">
+                            <ul>
+                               <li><a href="../index.html" class="navbar-link">Portfolio</a></li>
+<!--                                <li><a href=".." class="navbar-link">Toolbox</a></li>-->
+                                <li><a href="../about.html" class="navbar-link">About</a></li>
+                                <li><a href="../assets/rob-grabowski-resume.pdf" class="navbar-link">Resume</a></li>
+                                <li><a href="../contact.html" class="navbar-link">Contact</a></li>     
+                            </ul>
+                         </div>
+                    </div>
+              </div>
+              <div class = "col-sm-12 col-lg-9 col-lg-offset-3 tasty-trucks">
+                  
+                    <div class="summary right-pad">
+                      
+                      <h2>WSJwine Navigation</h2>
+                      <p>A redesign for the WSJwine navigation (mobile + desktop)</p>
+                      
+                      
+                    </div>
+                    <div class="study-intro-text right-pad">
+                        <div class="intro-content">
+                            <h2>Find local FoodTrucks,
+Order on app,
+Pick up food,
+Done.</h2>         
+                        </div>
+                   </div>
+                  <div class="problem right-pad">
+                      
+                      <h2  class="study-pad section-header">The Problem</h2>
+                      <p   class="study-pad">Often times we want to eat from a food truck, but we don't want to wait in their lines or we need to find trucks that are near us.  Tasty Trucks is an iOS app that lets you search for trucks near you.  The app lets you browse menus and make a purchase so your food is ready for you.</p>
+                      
+                    </div>
+                    <div class="solution right-pad">
+                      
+                      <h2  class="study-pad section-header">The Solution</h2>
+                      <p   class="study-pad">I researched mobile apps in the food delivery sector. The GrubHub app inspired the design for Tasty Trucks.</p>
+                      <p><img class="study-pad" src="../assets/tasty-trucks/five-screens.png" alt="Five Screen images of Tasty Trucks" /></p>
+                      
+                        <div class="link-to-site tasty-trucks" style="clear:both"> 
+                            <a class="study-pad" href="https://invis.io/8G98G3AQN">View InVision Prototype</a>
+                        </div>    
+                      
+                      
+                    </div>
+                  
+                    <div class="process right-pad">
+                      
+                      <h2 class="study-pad section-header">The Process</h2>
+                      
+                      <div class="process-section">
+                          <h3 class="study-pad sub-section-header">Competitive Analysis</h3>  
+                          <p class="study-pad">When I researched food delivery apps I looked at their features and for UI patterns. </p>
+                      </div>
+                      
+<!--
+                      <div class="process-section">
+                        <h3 class="study-pad sub-section-header">User Survey</h3>  
+                        <p class="study-pad">I conducted a user survey to learn about wine drinkers’s habits surrounding how much they research wine, what the look for when they go to wine sites.</p>
+                        <p class="study-pad bullet-list">Here are a few of the key insights gained from the survey:</p>
+                        <ul class="study-pad study-results">
+                            <li>-----of the respondents typically look or may look for guidance when buying eyeglasses.</li>
+                            
+                            
+                          </ul>
+                        <div class="study-pad img-wrapper">
+                            <h4 class="survey-question">Do you typically look for guidance when buying eyeglasses?</h4>
+                            <img class="study-pad no-border" src="../assets/survey-guidance.png" />
+                            <h4 class="survey-question">Did your search for glasses feel personalized at all?</h4>
+                            <img class="study-pad no-border" src="../assets/survey-personalized.png" />  
+                        </div>
+                      </div>
+-->
+<!--
+                      <div class="process-section">
+                          <h3 class="study-pad sub-section-header">Personas</h3>  
+                          <p class="study-pad">From the user survey results and my conversations with the client, we identified several potential customer types.</p>
+                          <div class="study-pad img-wrapper personas">  
+                            <img class="study-pad no-border" src="../assets/personas.png" />
+                            
+                        </div>
+                      </div>
+-->
+                        
+                      <div class="process-section">
+                          <h3 class="study-pad sub-section-header">User Stories</h3>  
+                          <p class="study-pad">I created a list of user stories documenting how users would engage with the site.</p>
+                          <div class="study-pad stories">  
+                            <table>
+                              <thead>
+                                <tr>
+                                  <th>Role</th>
+                                  <th>Task</th>
+                                  <th>Screen</th>
+                                  <th>Action</th>
+                                </tr>
+                              </thead>        
+                              <tr>
+                                <td>A User</td>
+                                <td>I want to find food trucks near me</td>
+                                <td>Landing</td>
+                                <td>Landing screen after login or signup</td>  
+                              </tr>
+                              <tr>
+                                <td>A User</td>
+                                <td>I want to look at a trucks menu</td>
+                                <td>Truck Menu</td>
+                                <td>Truck list link and Map Link</td> 
+                              </tr>
+                              <tr>
+                                <td>A User</td>
+                                <td>I want to read truck reviews</td>
+                                <td>Truck Reviews</td>
+                                <td>Truck page reviews link</td> 
+                              </tr>
+                              <tr>
+                                <td>A User</td>
+                                <td>I want to read about the truck and find out it's hours</td>
+                                <td>Truck Details</td>
+                                <td>Truck details link</td> 
+                              </tr>
+                              <tr>
+                                <td>A User</td>
+                                <td>I want to select menu items for purchase</td>
+                                <td>Purchase</td>
+                                <td>Select menu item and add to cart</td> 
+                              </tr>
+                              <tr>
+                                <td>A User</td>
+                                <td>I want to edit my cart</td>
+                                <td>Cart</td>
+                                <td>Swipe cart item and click edit or delete</td> 
+                              </tr>    
+                              <tr>
+                                <td>A User</td>
+                                <td>I want to complete my purchase</td>
+                                <td>Details screen</td>
+                                <td>Cart details screen place order link</td> 
+                              </tr> 
+                              <tr>
+                                <td>A User</td>
+                                <td>I want to select my payment option</td>
+                                <td>Payment screen</td>
+                                <td>Place Order</td> 
+                              </tr>
+                              <tr>
+                                <td>A New User</td>
+                                <td>I want to enter my credit card information</td>
+                                <td>Add card screen</td>
+                                <td>Add Payment option</td> 
+                              </tr>    
+                              <tr>
+                                <td>A User</td>
+                                <td>I view my account information</td>
+                                <td>Account screen </td>
+                                <td>Accoung cog link</td> 
+                              </tr>
+                              <tr>
+                                <td>A User</td>
+                                <td>I want to view my transactions</td>
+                                <td>Transactions screen</td>
+                                <td>Account screen transactions item</td> 
+                              </tr>
+                             
+                            </table>
+                            
+                        </div>
+                      </div> 
+                        
+                      <div class="process-section">
+                          <h3 class="study-pad sub-section-header">User Flows</h3>  
+                          <p class="study-pad">From the user stories, I created a user flow diagram to help visualize how the customers would find trucks, learn about them, and place an order.</p>
+                          <div class="study-pad img-wrapper personas">  
+                            <img class="study-pad no-border " src="../assets/tasty-trucks/userflow-tasty-trucks.png" />
+                            
+                        </div>
+                      </div> 
+                        
+                      <div class="process-section">
+                          <h3 class="study-pad sub-section-header">Wireframes</h3>
+                          
+                          <p class="study-pad">From the user flow diagram I designed low-fidelity wireframes.  I realized through this process that a map would be important for locating trucks.  I also realized that although this is an iOS app that users might not have Apple Pay set up so I added the option of using a credit card for payment.</p>
+                          <div class="study-pad img-wrapper tasty-wires">  
+                            <img class="study-pad" src="../assets/tasty-trucks/wires/iPhone%207%20-%20Login.png" />
+                            <img class="study-pad" src="../assets/tasty-trucks/wires/iPhone%207%20-%20Map%20View%20Final.jpg" />
+                              <img class="study-pad" src="../assets/tasty-trucks/wires/iPhone%207%20-%20Menu%20View.jpg" />
+                            
+                         </div>
+                          <div class="study-pad img-wrapper tasty-wires">
+                             <img class="study-pad" src="../assets/tasty-trucks/wires/iPhone%207%20-%20Truck%20Reviews.jpg" />
+                            
+                              <img class="study-pad" src="../assets/tasty-trucks/wires/iPhone%207%20-%20Order%20Details.png" />
+                            
+                            <img class="study-pad" src="../assets/tasty-trucks/wires/iPhone%207%20-%20Add%20Payment%20Option.png" />
+                          </div>
+                           <div class="study-pad img-wrapper tasty-wires">
+                            <img class="study-pad" src="../assets/tasty-trucks/wires/iPhone%207%20-%20Add%20Card.png" />
+                            <img class="study-pad" src="../assets/tasty-trucks/wires/iPhone%207%20-%20Account.png" />
+                            <img class="study-pad" src="../assets/tasty-trucks/wires/iPhone%207%20-%20Transcations.png"/>
+                           </div>
+
+                      </div>
+                        
+                      <div class="process-section">
+                          <h3 class="study-pad sub-section-header">Mockups</h3>
+                          
+                          <h5 class="study-pad mockups">UI Elements</h5>
+                          <p class="study-pad">For consistency and familiarity, I used a number of stand UI elements and the iOS SF font.</p>
+                          <div class="study-pad img-wrapper img-pad tasty-elements">  
+                                <img class="study-pad no-border" src="../assets/tasty-trucks/ui-elements.png" />
+                          </div>
+                          
+                          <h5 class="study-pad mockups">Color Psychology</h5>
+                          <p class="study-pad">Red is known to invoke hunger so I chose it as my primary color.  I used a light shade of yellow as the secondary color since it is warm and also can stimulate the appetite.</p>
+                           <div class="study-pad img-wrapper img-pad">  
+                                <img class="study-pad no-border" src="../assets/tasty-trucks/colors.png" />
+                          </div>
+                    
+
+                          <p class="study-pad">Mockups</p>
+                          <div class="study-pad img-wrapper tasty-wires">  
+                              <img class="study-pad" src="../assets/tasty-trucks/mocks/iPhone%207%20-%20SignUp%20OR%20Login.jpg" />
+                              <img class="study-pad" src="../assets/tasty-trucks/mocks/Initial%20Screen.jpg" />
+                              <img class="study-pad" src="../assets/tasty-trucks/mocks/iPhone%207%20-%20Map%20View%20Final.jpg" />
+                             
+                         </div>
+                          <div class="study-pad img-wrapper tasty-wires">
+                             <img class="study-pad" src="../assets/tasty-trucks/mocks/iPhone%207%20-%20Map%20View%20Scoll%20Final.jpg" />
+                            
+                              <img class="study-pad" src="../assets/tasty-trucks/mocks/iPhone%207%20-%20Menu%20View.jpg" />
+                            
+                            <img class="study-pad" src="../assets/tasty-trucks/mocks/iPhone%207%20-%20Food%20Selection.jpg" />
+                          </div>
+                           <div class="study-pad img-wrapper tasty-wires">
+                            <img class="study-pad" src="../assets/tasty-trucks/mocks/iPhone%207%20-%20Truck%20Details.jpg" />
+                            <img class="study-pad" src="../assets/tasty-trucks/mocks/iPhone%207%20-%20Cart%20Edit-Delete.jpg" />
+                            <img class="study-pad" src="../assets/tasty-trucks/mocks/iPhone%207%20-%20Rating%20Dialog.jpg"/>
+                           </div>
+                          
+                      </div>
+                      
+                    </div>
+                  
+                    <div class="conclusion right-pad">
+                      
+                      <h2 class="study-pad section-header">Conclusion</h2>
+                      <p class="study-pad">While designing Tasty Trucks I learned about the iOS UI elements and where it is best to use them.  I also learned that by using swipe gestures I can reduce clutter on the screen as in the case of when the user swipes a cart item and gets to edit or delete the item.  Or when the user scrolls up on the truck list so the list expands close to the top of the screen.
+                      <p   class="study-pad">This iOS application was designed using Sketch.</p>
+                      
+                        <div class="study-pad link-to-site tasty-trucks"><a class="study-pad left-justify link-to-site" href="https://invis.io/8G98G3AQN" target="_blank">View InVision Prototype</a></div>
+                         
+                      
+                      
+                    </div>
+                   <div class="view-studies right-pad">
+                        <h2 class="section-header">View other case studies</h2>
+
+                        <div class="img-wrapper view-other-studies">
+                            <div class="case-study-image">
+                             <a href="your-private-eyestylist.html">
+                                 <img class="" src="../assets/eyestylist-2x.png" alt="Your Private EyeStylist image" />
+                                <p class="image-title">Your Private Eyestylist</p>
+                                </a>
+                            </div>
+                           <div class="case-study-image border-tim">
+                              <a href="timothy-malone-wines.html">
+                                  <img class="" src="../assets/timothymalonewines-2x.png" />
+                                <p class="image-title">Timothy Malone Wines</p>
+                                </a>
+                            </div>
+                            <div class="case-study-image">
+                             <a href="tone-control.html">
+                                 <img class="" src="../assets/tonecontrol-2x.png" alt="Your Private EyeStylist image" />
+                                <p class="image-title">Tone Control</p>
+                                </a>
+                            </div>
+                          </div>
+                    </div>   
+                  <div class="footer">
+                    <nav class="navbar"> <!-- navigation bar -->
+                    
+                        <div class="links-container">
+                             <a href="mailto:rob.j.grabowski@gmail.com" class="navbar-link">rob.j.grabowski@gmail.com</a>
+                            <a href="https://www.linkedin.com/in/robertjohngrabowski/" class="navbar-link">LinkedIn</a>
+
+                             <a href="https://twitter.com/robbay" class="navbar-link">Twitter</a>
+                             <a href="behance.net/rgrabowskifa7d" class="navbar-link">Behance</a>
+                             <a href="gram.com/grabowskirob/" class="navbar-link">Instagram</a>
+                        </div>
+                    
+                    </nav>
+                               
+                 </div>
+              </div>
+           </div>
+
+           
+
+        </div>
+         <div class = "container-fluid background">
+   
+           <div class = "row buffer">
+                  
+           </div>
+
+           
+
+        </div>
+         
+        
+        <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+         <script src="/js/landing.js"></script>
+        <script type="text/javascript">
+            jQuery(function($){
+                     $( '.bars-1' ).click(function(){
+                     $('.responsive-menu').slideToggle(600);
+                     })
+                     
+                     $( '.bars-2' ).click(function(){
+                     $('.responsive-menu-2').slideToggle(600);
+                     })
+                })
+        </script>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-33471517-2', 'auto');
+          ga('send', 'pageview');
+
+        </script> 
+        
+     </body>
+ </html>
