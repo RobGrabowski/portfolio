@@ -409,11 +409,12 @@ content: '';
         width: 60%;
     }
 */
-    .tasty-trucks-text-wrapper, .tone-control-text-wrapper, .eyestylist-text-wrapper, .winery-text-wrapper  {
+    .tasty-trucks-text-wrapper, .tone-control-text-wrapper, .eyestylist-text-wrapper, .winery-text-wrapper, .recent-work-text-wrapper  {
         padding-top: 0;
         width: 100%;
         float: none;
     }
+    
     .case-study h2{
         text-align: center;
         padding-bottom: 5%;
