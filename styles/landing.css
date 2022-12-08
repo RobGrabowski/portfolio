@@ -214,11 +214,11 @@ text-shadow: 1px 1px 0 #767471;
 .intro-text{
     color: #253149;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     padding-top: 50px;
     letter-spacing: 2.14px;
     line-height: 1.5;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 .responsive-menu-1{
     padding-top: 2%;
