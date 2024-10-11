@@ -580,6 +580,7 @@ table{
         text-align: center;
         width: 90%;
         margin: auto;
+        display: none;
     }
     .intro-content{
         margin: auto;
