@@ -97,7 +97,7 @@ Done.</h2>
                     <div class="solution right-pad">
                       
                       <h2  class="study-pad section-header">The Solution</h2>
-                      <p   class="study-pad">Our research team did a competetive Analysis and charted out what mini-cart features were used or not used by 12 of our competitors. </p>
+                      <p   class="study-pad"></p>
                       <p><img class="study-pad" src="../assets/tasty-trucks/five-screens.png" alt="Five Screen images of Tasty Trucks" /></p>
                       
                         <div class="link-to-site tasty-trucks" style="clear:both"> 
@@ -113,7 +113,7 @@ Done.</h2>
                       
                       <div class="process-section">
                           <h3 class="study-pad sub-section-header">Competitive Analysis</h3>  
-                          <p class="study-pad">When I researched food delivery apps I looked at their features and for UI patterns. </p>
+                          <p class="study-pad">Our research team did a competitive Analysis and charted out what mini-cart features were used or not used by 12 of our competitors.  </p>
                       </div>
                       
 <!--
