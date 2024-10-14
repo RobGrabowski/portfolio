@@ -565,6 +565,9 @@ table{
     line-height: 1.8;
     margin-bottom: 0;
     padding-bottom: 2%;
+    
+}
+.workshop-list li {
     list-style-type: circle;
 }
 
