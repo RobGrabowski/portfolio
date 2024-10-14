@@ -567,8 +567,9 @@ table{
     padding-bottom: 2%;
     
 }
-.workshop-list li {
+.workshop-list-li {
     list-style-type: circle;
+    font-size: 1em;
 }
 
 .view-other-studies .border-tim img{
