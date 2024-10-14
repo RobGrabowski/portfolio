@@ -544,12 +544,14 @@ table{
     clear: both;
 }
 .mini-cart-solution-tnf{
-    width: 50%;
+    width: 40%;
     float: left;
+    margin-left: 10%;
 }
 .mini-cart-solution-vans{
-    width: 50%;
+    width: 40%;
     float: right;
+    margin-rigth: 10%;
 }
 
 .view-other-studies .border-tim img{
