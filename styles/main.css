@@ -543,6 +543,15 @@ table{
     display: block;
     clear: both;
 }
+.mini-cart-solution-tnf{
+    width: 50%;
+    float: left;
+}
+.mini-cart-solution-vans{
+    width: 50%;
+    float: right;
+}
+
 .view-other-studies .border-tim img{
 /*    border-color: #7F4C48;*/
 }
