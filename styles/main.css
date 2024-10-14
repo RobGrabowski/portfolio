@@ -3,11 +3,7 @@ body{
     color: #020307;
     height: 100%;
 }
-body ul{
-    font-family: 'Open Sans', sans-serif;
-    color: #020307;
-    height: 100%;
-}
+
 table{
     width: 100%;
 }
@@ -559,6 +555,17 @@ table{
     float: right;
     margin-right: 10%;
     text-align: center;
+}
+.workshop-list {
+    font-family: 'Open Sans', sans-serif;
+    color: #020307;
+    font-weight: 300;
+    font-size: 1.2em;
+    letter-spacing: 1.37px;
+    line-height: 1.8;
+    margin-bottom: 0;
+    padding-bottom: 2%;
+    list-style-type: circle;
 }
 
 .view-other-studies .border-tim img{
