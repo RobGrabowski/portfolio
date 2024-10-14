@@ -565,10 +565,11 @@ table{
     line-height: 1.8;
     margin-bottom: 0;
     padding-bottom: 2%;
+    margin-left: 5%;
     
 }
 .workshop-list-li {
-    list-style-type: circle;
+    list-style-type: disc;
     font-size: 1em;
 }
 
