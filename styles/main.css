@@ -177,7 +177,7 @@ table{
     margin-top: 0;
     
 }
-.problem p, .solution p, .solution a, .process p, .study-results li, .conclusion p, .conclusion a, {
+.problem p, .solution p, .solution a, .process p, .study-results li, .conclusion p, .conclusion a, study-pad{
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 1.2em;
