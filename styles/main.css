@@ -177,7 +177,7 @@ table{
     margin-top: 0;
     
 }
-.problem p, .solution p, .solution a, .process p, .study-results li, .conclusion p, .conclusion a, .study-pad li{
+.problem p, .solution p, .solution a, .process p, .study-results li, .conclusion p, .conclusion a, {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 1.2em;
@@ -570,7 +570,14 @@ table{
 }
 .workshop-list-li {
     list-style-type: disc;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
     font-size: 1em;
+    letter-spacing: 1.37px;
+    line-height: 1.8;
+    margin-bottom: 0;
+    padding-bottom: 2%;
+    text-transform: none;
 }
 
 .view-other-studies .border-tim img{
