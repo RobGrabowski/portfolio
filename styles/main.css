@@ -544,6 +544,10 @@ table{
     display: block;
     clear: both;
 }
+
+.mini-cart-solution{
+    padding-bottom: 40px;
+}
 .mini-cart-solution-tnf{
         float: left;
     margin: 0 auto;
