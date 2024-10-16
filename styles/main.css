@@ -546,6 +546,12 @@ table{
 }
 .mini-cart-logos{
     background-color: #fff;
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    /* vertical-align: baseline; */
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 .mini-cart-solution{
     padding-bottom: 40px;
