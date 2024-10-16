@@ -588,7 +588,9 @@ table{
     margin-left: 2.5%;
     box-shadow: none;
 }
-
+.workshop-img img{
+    box-shadow: none;
+}
 
 .view-other-studies .border-tim img{
 /*    border-color: #7F4C48;*/
