@@ -545,19 +545,18 @@ table{
     clear: both;
 }
 .mini-cart-solution-tnf{
-    width: 40%;
-    float: left;
+        float: left;
     margin: 0 auto;
     text-align: center;
 }
 .mini-cart-solution-vans{
-    width: 40%;
+    
     float: right;
     margin: 0 auto;
     text-align: center;
 }
 .mini-cart-solution-tnf img, .mini-cart-solution-vans img{
-    width: 130%;
+    width: 175%;
 }
 
 .workshop-list {
