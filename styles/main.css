@@ -586,6 +586,7 @@ table{
     width: 100%;
     float: left;
     margin-left: 2.5%;
+    box-shadow: none;
 }
 
 
