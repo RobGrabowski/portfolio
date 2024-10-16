@@ -544,7 +544,9 @@ table{
     display: block;
     clear: both;
 }
-
+.mini-cart-logos{
+    background-color: #fff;
+}
 .mini-cart-solution{
     padding-bottom: 40px;
 }
