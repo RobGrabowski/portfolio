@@ -580,6 +580,15 @@ table{
     text-transform: none;
 }
 
+
+.workshop-img{
+    display: inline-block;
+    width: 100%;
+    float: left;
+    margin-left: 2.5%;
+}
+
+
 .view-other-studies .border-tim img{
 /*    border-color: #7F4C48;*/
 }
