@@ -548,7 +548,7 @@ table{
 .mini-cart-solution{
     padding-bottom: 40px;
 }
-.mini-cart-solution-tnf{
+.mini-cart-solution-tnf, .concepts{
         float: left;
     margin: 0 auto;
     text-align: center;
@@ -556,7 +556,7 @@ table{
     padding-right: 5px;
     width: 50%;
 }
-.mini-cart-solution-vans{
+.mini-cart-solution-vans, .concepts{
     
     float: right;
     margin: 0 auto;
@@ -565,7 +565,7 @@ table{
     padding-right: 5px;
     width: 50%;
 }
-.mini-cart-solution-tnf img, .mini-cart-solution-vans img{
+.mini-cart-solution-tnf img, .mini-cart-solution-vans img, .concepts img{
     width: 90%;
     padding-left: 25px;
     padding-right: 25px;
