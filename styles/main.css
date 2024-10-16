@@ -547,13 +547,13 @@ table{
 .mini-cart-solution-tnf{
     width: 40%;
     float: left;
-    margin-left: 10%;
+    margin: 0 auto;
     text-align: center;
 }
 .mini-cart-solution-vans{
     width: 40%;
     float: right;
-    margin-right: 10%;
+    margin: 0 auto;
     text-align: center;
 }
 .mini-cart-solution-tnf img, .mini-cart-solution-vans img{
