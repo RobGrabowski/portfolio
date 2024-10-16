@@ -596,7 +596,9 @@ table{
     padding-bottom: 0;
     text-transform: none;
 }
-
+workshop-list-li p{
+    font-size: 1em;
+}
 .weight-semi-bold{
     font-weight: 400;
 }
