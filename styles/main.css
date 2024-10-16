@@ -597,7 +597,9 @@ table{
     text-transform: none;
 }
 
-
+.weight-semi-bold{
+    font-weight: 400;
+}
 .workshop-img{
     display: inline-block;
     width: 100%;
