@@ -563,6 +563,8 @@ table{
 }
 .mini-cart-solution-tnf img, .mini-cart-solution-vans img{
     width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .workshop-list {
