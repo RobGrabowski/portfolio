@@ -558,18 +558,21 @@ table{
     flex-direction: row;
 }
 .mini-cart-logos .logo-column{
-    flex: 50%;
+    display: flex;
 }
 .mini-cart-logos .logo-column img{
     width: 100%;
+    flex: 50%;
 }
 .mini-cart-logos .logo-column .tnf-logo{
     width: 80%;
     padding-right: 5%;
+    align-self: flex-end;
 }
 .mini-cart-logos .logo-column .vans-logo{
     width: 90%;
     padding-left: 5%;
+    align-self: flex-start;
 }
 .mini-cart-solution{
     padding-bottom: 40px;
