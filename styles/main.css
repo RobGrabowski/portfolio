@@ -552,9 +552,16 @@ table{
     /* vertical-align: baseline; */
     padding-top: 5%;
     padding-bottom: 5%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
 .mini-cart-logos .logo-column{
     flex: 50%;
+}
+.mini-cart-logos .logo-column img{
+    width: 100%;
 }
 .mini-cart-solution{
     padding-bottom: 40px;
@@ -567,6 +574,11 @@ table{
     padding-right: 5px;
     width: 50%;
 }
+
+.mini-cart-solution-vans{
+    padding-top: 0%;
+}
+
 .mini-cart-solution-vans, .concepts{
     
     float: right;
@@ -612,6 +624,9 @@ workshop-list-li p{
 }
 .weight-semi-bold{
     font-weight: 400;
+}
+.weight-semi-bold p{
+    font-size: 1em;
 }
 .workshop-img{
     display: inline-block;
