@@ -632,11 +632,15 @@ table{
 workshop-list-li p{
     font-size: 1em;
 }
+.workship-paragraph{
+    padding-bottom: 2%;
+}
 .weight-semi-bold{
     font-weight: 400;
 }
 .weight-semi-bold p{
     font-size: 1em;
+    padding-top: 1%;
 }
 .workshop-img{
     display: inline-block;
