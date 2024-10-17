@@ -546,12 +546,12 @@ table{
 }
 .mini-cart-logos{
     background-color: #253149;
-    width: 80%;
+    width: 75%;
     height: 100%;
     display: flex;
     /* vertical-align: baseline; */
     padding-top: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 10%;
     align-content: center;
     align-items: center;
     justify-content: center;
