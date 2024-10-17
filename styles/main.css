@@ -546,7 +546,7 @@ table{
 }
 .mini-cart-logos{
     background-color: #253149;
-    width: 100%;
+    width: 80%;
     height: 100%;
     display: flex;
     /* vertical-align: baseline; */
@@ -566,12 +566,12 @@ table{
 }
 .mini-cart-logos .logo-column .tnf-logo{
     width: 80%;
-    padding-right: 5%;
+    padding-right: 10%;
     align-self: flex-end;
 }
 .mini-cart-logos .logo-column .vans-logo{
     width: 90%;
-    padding-left: 5%;
+    padding-left: 10%;
     align-self: flex-start;
 }
 .mini-cart-solution{
