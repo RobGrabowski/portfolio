@@ -629,10 +629,10 @@ table{
     padding-bottom: 0;
     text-transform: none;
 }
-workshop-list-li p{
+.workshop-list-li p{
     font-size: 1em;
 }
-.workship-paragraph{
+#workship-paragraph{
     padding-bottom: 2%;
 }
 .weight-semi-bold{
