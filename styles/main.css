@@ -563,6 +563,14 @@ table{
 .mini-cart-logos .logo-column img{
     width: 100%;
 }
+.mini-cart-logos .logo-column .tnf-logo{
+    width: 80%;
+    padding-right: 5%;
+}
+.mini-cart-logos .logo-column .vans-logo{
+    width: 90%;
+    padding-left: 5%;
+}
 .mini-cart-solution{
     padding-bottom: 40px;
 }
@@ -586,7 +594,6 @@ table{
     text-align: center;
     padding-left: 5px;
     padding-right: 5px;
-    padding-top: 20px;
     width: 50%;
 }
 .mini-cart-solution-tnf img, .mini-cart-solution-vans img, .concepts img{
