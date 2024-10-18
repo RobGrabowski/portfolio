@@ -569,6 +569,7 @@ table{
     justify-content: center;
     flex-direction: row;
 }
+
 .mini-cart-threshold .threshold-column{
     display: flex;
     flex-direction: column;
@@ -578,7 +579,27 @@ table{
     width: 100%;
     flex: 33.33%;
 }
-
+.row-two-col{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* vertical-align: baseline; */
+    padding-top: 5%;
+    padding-bottom: 10%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row; 
+}
+.row-two-col, .two-col{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.row-two-col, .two-col img{
+    width: 100%;
+    flex: 50%;
+}
 .mini-cart-logos .logo-column{
     display: flex;
 }
