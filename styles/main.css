@@ -562,7 +562,7 @@ table{
     height: 100%;
     display: flex;
     /* vertical-align: baseline; */
-    padding-top: 5%;
+   
     padding-bottom: 10%;
     align-content: center;
     align-items: center;
@@ -582,8 +582,9 @@ table{
 }
 .threshold-title{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
+    text-align: center;
 }
 
 .mini-cart-threshold .threshold-column img{
@@ -596,7 +597,6 @@ table{
     display: flex;
     /* vertical-align: baseline; */
     padding-top: 5%;
-    padding-bottom: 10%;
     align-content: center;
     align-items: center;
     justify-content: center;
