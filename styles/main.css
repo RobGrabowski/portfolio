@@ -609,6 +609,7 @@ table{
     display: flex;
     flex-direction: row;
     text-align: center;
+    padding-left: 2%;
 }
 .two-col{
     display: flex;
@@ -664,8 +665,8 @@ table{
 .concepts{
     margin: 0 auto;
     text-align: center;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
     width: 100%;
 }
 
@@ -675,6 +676,8 @@ table{
     padding-left: 5px;
     padding-right: 5px;
     width: 100%;
+    box-shadow: none;
+
 }
 .mini-cart-solution-tnf img, .mini-cart-solution-vans img{
     width: 80%;
