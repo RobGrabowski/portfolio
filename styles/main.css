@@ -669,7 +669,14 @@ table{
     width: 100%;
 }
 
-.mini-cart-solution-tnf img, .mini-cart-solution-vans img, .concepts img{
+.concepts img{
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+}
+.mini-cart-solution-tnf img, .mini-cart-solution-vans img{
     width: 80%;
     padding-left: 25px;
     padding-right: 25px;
