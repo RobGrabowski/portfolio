@@ -570,11 +570,7 @@ table{
     flex-direction: row;
     flex-wrap: wrap;
 }
-.threshold-title{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-}
+
 
 .mini-cart-threshold .threshold-column{
     display: flex;
@@ -583,6 +579,11 @@ table{
     width: 50%;
     padding-right: 5%;
     padding-bottom: 5%;
+}
+.mini-cart-threshold .threshold-column .threshold-title{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
 
 .mini-cart-threshold .threshold-column img{
@@ -704,6 +705,11 @@ table{
 }
 .workshop-img img{
     box-shadow: none;
+}
+
+.mini-cart-prototype-buttons{
+    display: flex;    
+    flex-direction: row; 
 }
 
 .view-other-studies .border-tim img{
