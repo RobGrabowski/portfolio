@@ -568,13 +568,18 @@ table{
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .mini-cart-threshold .threshold-column{
     display: flex;
     flex-direction: column;
     text-align: center;
+    width: 50%;
+    padding-right: 5%;
+    padding-bottom: 5%;
 }
+
 .mini-cart-threshold .threshold-column img{
     width: 100%;
     flex: 33.33%;
