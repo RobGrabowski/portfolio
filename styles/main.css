@@ -570,6 +570,11 @@ table{
     flex-direction: row;
     flex-wrap: wrap;
 }
+.threshold-title{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
 
 .mini-cart-threshold .threshold-column{
     display: flex;
