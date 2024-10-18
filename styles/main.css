@@ -610,6 +610,7 @@ table{
     flex-direction: row;
     text-align: center;
     padding-left: 2%;
+    width: 100%;
 }
 .concept-row{
     padding-right: 0;
