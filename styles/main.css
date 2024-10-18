@@ -602,6 +602,14 @@ table{
     justify-content: center;
     flex-direction: row; 
 }
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.concept-row{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
 .two-col{
     display: flex;
     flex-direction: column;
