@@ -611,6 +611,11 @@ table{
     text-align: center;
     padding-left: 2%;
 }
+.concept-row{
+    padding-right: 0;
+    width: 50%;
+}
+
 .two-col{
     display: flex;
     flex-direction: column;
