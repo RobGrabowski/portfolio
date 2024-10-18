@@ -665,6 +665,7 @@ table{
     width: 80%;
     padding-left: 25px;
     padding-right: 25px;
+    margin-left: 0;
     box-shadow: none;
 }
 .workshop-image-flex{
