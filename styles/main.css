@@ -618,9 +618,11 @@ table{
     width: 100%;
 }
 .concept-row-last{
-
+   
 }
-
+.item-empty {
+    visibility: hidden;
+  }
 .two-col{
     display: flex;
     flex-direction: column;
@@ -738,7 +740,7 @@ table{
 }
 .workshop-img{
     display: inline-block;
-    width: 80%;
+    width: 90%;
     margin-left: auto;
     box-shadow: none;
     margin-right: auto;
