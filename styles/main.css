@@ -580,7 +580,7 @@ table{
     padding-right: 5%;
     padding-bottom: 5%;
 }
-.mini-cart-threshold .threshold-column .threshold-title{
+.threshold-title{
     display: flex;
     flex-direction: row;
     width: 100%;
