@@ -654,12 +654,15 @@ table{
     width: 50%;
 }
 .mini-cart-solution-tnf img, .mini-cart-solution-vans img, .concepts img{
-    width: 90%;
+    width: 80%;
     padding-left: 25px;
     padding-right: 25px;
     box-shadow: none;
 }
-
+.workshop-image-flex{
+    display: flex;
+    flex-direction: column;
+}
 .workshop-list {
     font-family: 'Open Sans', sans-serif;
     color: #020307;
@@ -698,8 +701,7 @@ table{
 }
 .workshop-img{
     display: inline-block;
-    width: 100%;
-    float: left;
+    width: 80%;
     margin-left: 2.5%;
     box-shadow: none;
 }
