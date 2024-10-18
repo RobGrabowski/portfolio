@@ -665,6 +665,7 @@ table{
     text-align: center;
     padding-left: 5px;
     padding-right: 5px;
+    padding-bottom: 5%;
     width: 50%;
 }
 .concepts{
@@ -736,6 +737,8 @@ table{
     width: 80%;
     margin-left: auto;
     box-shadow: none;
+    margin-right: auto;
+    padding-top: 5%;
 }
 .workshop-img img{
     box-shadow: none;
