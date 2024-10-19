@@ -696,10 +696,9 @@ table{
 }
 .mini-cart-solution-tnf img, .mini-cart-solution-vans img{
     width: 80%;
-    padding-left: 25px;
-    padding-right: 25px;
     margin-left: 0;
     box-shadow: none;
+    margin: auto;
 }
 .workshop-image-flex{
     display: flex;
