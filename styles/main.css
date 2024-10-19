@@ -572,7 +572,7 @@ table{
 }
 
 
-.mini-cart-threshold .threshold-column{
+ .threshold-column{
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -587,9 +587,9 @@ table{
     text-align: center;
 }
 
-.mini-cart-threshold .threshold-column img{
+ .threshold-column img{
     width: 100%;
-    flex: 33.33%;
+    flex: 50%;
 }
 .row-two-col{
     width: 100%;
