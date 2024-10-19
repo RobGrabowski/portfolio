@@ -605,6 +605,7 @@ table{
 .flex-wrap{
     flex-wrap: wrap;
     justify-content: flex-start;
+    flex-direction: row;
 }
 .concept-row{
     display: flex;
