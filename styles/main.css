@@ -672,7 +672,19 @@ table{
     flex-flow: column;
     gap: 8px
 }
-
+.solution-row{
+    display: flex;
+    flex-flow: row;
+}
+.solution-col{
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    gap: 8px
+}
 .mini-cart-solution-vans{
     padding-top: 0%;
 }
