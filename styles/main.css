@@ -219,7 +219,7 @@ table{
 .solution img{
     width: 100%;
     margin: auto;
-    padding-top: 20px;
+    padding: 0;
 }
 .solution a, .solution a:hover, .conclusion a, .conclusion a:hover{
     text-align: center;
@@ -675,6 +675,7 @@ table{
 .solution-row{
     display: flex;
     flex-flow: row;
+    gap: 5%
 }
 .solution-col{
     text-align: center;
