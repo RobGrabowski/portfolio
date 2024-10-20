@@ -580,8 +580,8 @@ table{
     flex-direction: column;
     text-align: center;
     width: 45%;
-    padding-right: 5%;
     padding-bottom: 5%;
+    padding-left: 5%;
 }
 .threshold-title{
     display: flex;
