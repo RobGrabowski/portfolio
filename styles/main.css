@@ -571,7 +571,10 @@ table{
     flex-wrap: wrap;
 }
 
-
+.title-container{
+    text-align: left;
+    padding-left: 5%;
+}
  .threshold-column{
     display: flex;
     flex-direction: column;
