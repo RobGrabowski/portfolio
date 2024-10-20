@@ -582,6 +582,10 @@ table{
     width: 45%;
     padding-bottom: 5%;
     padding-left: 5%;
+    gap: 8px;
+}
+.threshold-column p{
+    padding-bottom: 0;
 }
 .threshold-title{
     display: flex;
@@ -658,7 +662,7 @@ table{
     padding-bottom: 40px;
 }
 .mini-cart-solution-tnf, .concepts{
-        float: left;
+    
     margin: 0 auto;
     text-align: center;
     padding-left: 5px;
@@ -666,7 +670,7 @@ table{
     width: 50%;
     display: flex;
     flex-flow: column;
-    gap: 16px
+    gap: 8px
 }
 
 .mini-cart-solution-vans{
@@ -675,7 +679,7 @@ table{
 
 .mini-cart-solution-vans{
     
-    float: right;
+    
     margin: 0 auto;
     text-align: center;
     padding-left: 5px;
@@ -683,7 +687,7 @@ table{
     width: 50%;
     display: flex;
     flex-flow: column;
-    gap: 16px
+    gap: 8px
 }
 .concepts{
     margin: 0 auto;
