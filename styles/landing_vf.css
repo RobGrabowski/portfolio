@@ -426,7 +426,7 @@ content: '';
     }
     .row-two-col {
         flex-direction: column-reverse;
-
+        justify-content: center;
     }
     .reverse {
         display: flex;
@@ -434,6 +434,10 @@ content: '';
     }
     .row-two-col img {
         width: 50%;
+        margin-bottom: 0;
+    }
+    .mini-cart-wrapper {
+        width: 100%;
     }
 /*
     .case-study.tone-control img{
