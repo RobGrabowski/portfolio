@@ -849,15 +849,16 @@ table{
         width: 100%;
     }
     
-    .solution-col{
-        text-align: center;
-    }
+    
     .study-pad{
         padding-left: 10%;
         padding-right: 10%;
         padding-bottom: 5%;
         text-align: left;
         
+    }
+    .solution-col{
+        text-align: center;
     }
     .study-pad p:last-child{
         padding-bottom: 20%;
