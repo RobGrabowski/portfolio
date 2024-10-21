@@ -434,7 +434,7 @@ content: '';
     }
     .row-two-col img {
         width: 50%;
-        margin-bottom: 0;
+        margin: 0;
     }
     .mini-cart-wrapper {
         width: 100%;
