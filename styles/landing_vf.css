@@ -156,6 +156,9 @@ text-shadow: 1px 1px 0 #767471;
     justify-content: left;
     flex-direction: row; 
 }
+.row-two-col img{
+    width: 35%;
+}
 .tasty-trucks-text-wrapper, .eyestylist-text-wrapper{
     float: left;
     width: 30%;
