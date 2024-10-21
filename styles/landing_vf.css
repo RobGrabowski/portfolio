@@ -430,10 +430,10 @@ content: '';
     }
     .reverse {
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: row;
     }
     .row-two-col img {
-        width: 100%;
+        width: 50%;
     }
 /*
     .case-study.tone-control img{
