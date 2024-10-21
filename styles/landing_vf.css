@@ -1,0 +1,508 @@
+body{
+    height: auto;
+    min-height: 100% !important;
+    
+}
+.landing{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #253149;
+}
+
+li{
+    list-style-type: none;
+    padding-bottom: 5px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+li a{
+    
+}
+ul{
+    padding-left: 0;
+}
+
+.container-fluid.background{
+    background-color: #ffffff;
+    z-index: 1;
+}
+.logo{
+    font-family: 'Oregano', cursive;
+    cursor: pointer;
+}
+.logo-container{
+    float: left;
+}
+
+.logo h1{
+    font-size: 5.2em;
+/*    text-shadow: 1px 1px 0 #767471;*/
+    letter-spacing: -3.16px;
+/*    -webkit-text-stroke: 1px #E3E3E3;*/
+     font-family: 'Oregano', cursive;
+   -webkit-text-fill-color: ##E3E3E3; /* Will override color (regardless of order) */
+   
+}
+.logo h1.a{
+    font-size: 5.2em;
+/*    text-shadow: 1px 1px 0 #767471;*/
+    letter-spacing: -3.16px;
+/*    -webkit-text-stroke: 1px #E3E3E3;*/
+    font-family: 'Oregano', cursive;
+/*   -webkit-text-fill-color: ##E3E3E3;  Will override color (regardless of order) */
+   
+}
+
+
+/*
+ rg: 
+border: 1px solid #E3E3E3;
+font-family: Oregano-Regular;
+font-size: 72px;
+color: #253149;
+letter-spacing: -3.16px;
+text-shadow: 1px 1px 0 #767471;
+*/
+
+.buffer {
+    padding-top: 20px; 
+}
+.landing h2{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2.66px;
+    font-weight: 400;
+}
+
+.case-study h2{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2.66px;
+    font-weight: 400;
+}
+.case-study{
+/*
+    border: 1px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgba(37,49,73, .25);
+*/
+    width: 100%;
+    min-height: 400px;
+    padding-top: 10%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40%;
+    height: 100%;
+    
+}
+.case-study.tasty-trucks{
+    margin-top: 0;
+}
+.case-study img, .view-other-studies img{
+    height: auto;
+    width: 70%;
+    display: inline-block;
+    float: left;
+/*  margin-left: 40px;
+   margin-right: 40px;*/
+/*
+    border-color: #979797 !important;
+    border-width: 6px;
+    border-style: solid;
+*/
+}
+.case-study.tone-control{
+    height: 100%;
+    margin-bottom: 20%;
+}
+.case-study.tone-control img{
+    height: auto;
+/*    width: 70%;*/
+    display: inline-block;
+    cursor: pointer;
+}
+.tasty-trucks img, .eyestylist img{
+    border-color: #7D1311 !important;
+    float: right;
+    height: auto;
+    width: 70%;
+    cursor: pointer;
+}
+.tasty-trucks video{
+    width: 70%;
+    height: auto;
+}
+.eyestylist img{
+    float: right;
+}
+.eyestylist{
+/*
+    padding-top: 0;
+    margin-top: 0;
+*/
+}
+
+.row-two-col{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* vertical-align: baseline; */
+    padding-top: 3%;
+    align-content: center;
+    align-items: center;
+    justify-content: left;
+    flex-direction: row; 
+}
+.tasty-trucks-text-wrapper, .eyestylist-text-wrapper{
+    float: left;
+    width: 30%;
+    padding-top: 10%;
+}
+.eyestylist-text-wrapper{
+    display: inline-block;
+    float: left;
+    width: 25%;
+}
+.tone-control-text-wrapper, .winery-text-wrapper {
+    display: inline-block;
+    float: right;
+    width: 25%;
+    padding-top: 5%;
+}
+
+.tone-control img{
+    border-color: #FFE8D1 !important;
+}
+.tone-control .media-container {
+    display: inline;
+}
+.tone-control video{
+    width: 70%;
+    height: auto;
+}
+.fandistro img{
+    border-color: #57585B !important;
+}
+.case-study h3{
+    width: 90%;
+    font-weight: 300;
+    letter-spacing: 1.37px;
+    line-height: 1.5;
+    font-size: 1.5em;
+}
+.case-study .button, .intro-text .lets-chat{
+    background-color: #253149;
+    border: none;
+    color: #ffffff;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 1em;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    max-width: 150px;
+    width: 100%;
+    margin-top: 20px;
+}
+.intro-text .lets-chat{
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.case-study .button a, .intro-text .lets-chat a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.mobile-nav-2{
+    display: none;
+}
+.intro-text{
+    color: #253149;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    padding-top: 50px;
+    letter-spacing: 2.14px;
+    line-height: 1.5;
+    font-size: 1.5em;
+}
+.responsive-menu-1{
+    padding-top: 2%;
+    color: #253149;
+    float: right;
+    width: auto;
+    
+}
+
+/* BEGIN BUTTON EFFECTS */
+
+.responsive-menu-1 li:after{
+  backface-visibility: hidden;
+  border: 1px solid rgba(37,49,73,0);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 280ms ease-in-out;
+  width: 0;
+}
+
+.responsive-menu-1 li:hover:after{
+  backface-visibility: hidden;
+  border-color: rgba(37,49,73,1);
+  transition: width 350ms ease-in-out;
+  width: 80%;
+/*    border: 1px solid rgba(246,219,175,1);*/
+/*    box-shadow: 1px 1px 1px rgba(246,219,175,1);*/
+}
+
+.responsive-menu-1 li:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 80%;
+}
+/* END BUTTON EFFECTS */
+
+ul.nav li:hover { 
+    color: #fff !important; 
+}
+nav > li > a:hover{
+    background-color:#fff;
+}
+.responsive-menu-1 li{
+    float: left;
+/*    padding-left: 5%;*/
+    font-size: 1.4em;
+}
+
+/* BEGIN SECONDARY PAGE NAVIGATION */
+.responsive-menu-secondary{
+    padding-top: 20px;
+    color: #253149;
+}
+.responsive-menu-secondary li a, .responsive-menu-secondary li a:hover{
+    color: #253149;
+    font-family: 'Maven Pro', sans-serif;
+    letter-spacing: 1.06px;
+    text-decoration: none;
+}
+/* END SECONDARY PAGE NAVIGATION */
+
+.responsive-menu-1 li a, .responsive-menu-1 li a:hover{
+    color: #253149;
+    font-family: 'Maven Pro', sans-serif;
+    letter-spacing: 1.06px;
+    text-decoration: none;
+    font-size: 1.2em;
+    
+}
+.responsive-menu-1 a, .responsive-menu-1 a:hover{
+    color: #253149;
+    font-family: 'Maven Pro', sans-serif;
+    letter-spacing: 1.6px;
+    text-decoration: none;
+    font-size: 1.7em;
+    padding: 14px 16px;
+    text-transform: uppercase;
+    font-weight: 300;
+    
+}
+.case-study.winery img{
+    border-color: #7F4C48 !important;
+}
+
+.winery{
+/*
+    padding-top: 10%;
+    padding-bottom: 10%;
+*/
+    }
+.footer {
+    color: #253149;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+/*    padding-top: 50px;*/
+    letter-spacing: 2.14px;
+    line-height: 1.5;
+    width: 95%;
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    
+        
+}
+.wines .footer{
+    width: 95%;
+}
+
+.links-container a, .links-container a:hover, .links-container a:visited{
+/*    padding-right: 20px;*/
+    text-decoration: none;
+    font-size: 1em;
+    color: #253149;
+    font-weight: 400;
+}
+
+.links-container a:after{
+    content: '  \2219 ';
+    
+}
+.links-container a:last-child:after {
+content: '';
+}
+.footer .intro-text:nth-child(2){
+    padding-top: 20px;
+}
+
+
+@media (max-width: 1200px ){
+    .logo {
+        text-align: center;
+    }
+    .logo-container{
+        float: none;
+    }
+    .responsive-menu-secondary{
+        text-align: center;
+    }
+    .responsive-menu-1{
+        text-align: center;
+        padding-top: 5%;
+        width: 100%;
+    }
+    .intro-text{
+        text-align: left;
+        width: 70%;
+        margin: auto;
+    }
+    .footer .intro-text{
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .intro-content{
+        margin: auto;
+    }
+    .case-study {
+        text-align: center;
+/*        margin-bottom: 0;*/
+    }
+    .case-study img{
+       margin-bottom: 10%;
+       float: none;
+       margin-left: 5%;
+       margin-right: 5%;
+        width: 80%;
+    }
+    .case-study.tone-control{
+/*        margin-bottom: 10%;*/
+    }
+    .case-study{
+        margin-bottom: 10%;
+        margin-top: 0;
+        padding-top: 10%;
+    }
+    .case-study.tone-control{
+        margin-bottom: 5%;
+    }
+/*
+    .case-study.tone-control img{
+        width: 60%;     
+    }
+    .tasty-trucks img, .eyestylist img{
+        width: 60%;
+    }
+*/
+    .tasty-trucks-text-wrapper, .tone-control-text-wrapper, .eyestylist-text-wrapper, .winery-text-wrapper, .recent-work-text-wrapper  {
+        padding-top: 0;
+        width: 100%;
+        float: none;
+    }
+    
+    .case-study h2{
+        text-align: center;
+        padding-bottom: 5%;
+        margin: auto;
+    }
+    .case-study h3{
+        margin: auto;
+        font-size: 1.3em;
+        text-align: center;
+         width: 70%;
+    }
+    .read-more-wrapper{
+        margin-bottom: 10%;
+    }
+    .footer{
+        
+        line-height: 2;
+    }
+}
+@media (max-width: 1024px ){
+    .tasty-trucks img, .eyestylist img, .tone-control img, .winery img {
+        width: 80%;
+    }
+}
+@media (max-width: 768px ){
+    .responsive-menu-1{
+        width: 100%;
+    }
+    .tasty-trucks img, .eyestylist img, .tone-control img, .winery img {
+        width: 80%;
+    }
+    .case-study{
+        padding-top: 10%;
+        padding-bottom: 10%;
+        margin-bottom: 0;
+    }
+    .case-study.tone-control{
+        margin-bottom: 0;
+    }
+    .case-study.tasty-trucks{
+        padding-top: 20%;
+/*        padding-bottom: 0;*/
+    }
+    .case-study h3{
+        width: 80%;
+    }
+    .tasty-trucks-text-wrapper  {
+        padding-top: 0;
+        width: 100%;
+        float: none;
+    }
+    .eyestylist-text-wrapper{
+        padding-top: 0;
+        width: 100%;
+    }
+    .tone-control-text-wrapper{
+        width: 100%;
+    }
+    .eyestylist{
+/*        padding-top: 0;*/
+    } 
+    .winery{
+/*
+        padding-top: 0;
+        padding-bottom: 10%;
+*/
+    }
+}
+
+@media (max-width: 600px ){
+    .responsive-menu-1 li{
+        float: none;
+    }
+}
+@media (max-width: 1400px ){
+    .responsive-menu-1{
+        padding-top: 3%;
+    }
+}
