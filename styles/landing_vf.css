@@ -161,6 +161,10 @@ text-shadow: 1px 1px 0 #767471;
     width: 30%;
     padding-top: 10%;
 }
+.mini-cart-wrapper{
+    float: left;
+    width: 30%;
+}
 .eyestylist-text-wrapper{
     display: inline-block;
     float: left;
