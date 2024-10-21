@@ -859,6 +859,8 @@ table{
     }
     .solution-col{
         text-align: center;
+        padding-left: 0;
+        padding-right: 0;
     }
     .study-pad p:last-child{
         padding-bottom: 20%;
