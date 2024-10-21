@@ -849,6 +849,9 @@ table{
         width: 100%;
     }
     
+    .solution-col{
+        text-align: center;
+    }
     .study-pad{
         padding-left: 10%;
         padding-right: 10%;
