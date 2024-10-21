@@ -425,7 +425,12 @@ content: '';
         margin-bottom: 5%;
     }
     .row-two-col {
-        flex-direction: column;
+        flex-direction: column-reverse;
+
+    }
+    .reverse {
+        display: flex;
+        flex-direction: row-reverse;
     }
     .row-two-col img {
         width: 100%;
