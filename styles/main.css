@@ -265,8 +265,7 @@ table{
 .link-to-site a{
     padding: 3%;
     border: 2px solid white;
-    margin-bottom: 50%;
-/*    margin-top: 20%;*/
+    /*    margin-top: 20%;*/
     text-align: center !important;
     padding-top: 3%;
     padding-bottom: 3%;
@@ -781,6 +780,7 @@ table{
 .mini-cart-prototype-buttons{
     display: flex;    
     flex-direction: row; 
+    flex-flow: wrap;
 }
 
 .view-other-studies .border-tim img{
@@ -1001,3 +1001,4 @@ table{
         text-align: center;
     }
 }
+
