@@ -424,6 +424,9 @@ content: '';
     .case-study.tone-control{
         margin-bottom: 5%;
     }
+    .mini-cart .row-two-col {
+        flex-direction: column;
+    }
 /*
     .case-study.tone-control img{
         width: 60%;     
