@@ -14,7 +14,7 @@ table{
     
 }
 .logo-container{
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     width: 100%;
 }
 .intro-text{
@@ -827,8 +827,7 @@ table{
         position: fixed !important;
     }
     .logo-container {
-        padding-bottom: 5%;
-        width: 100%;
+        padding-bottom: 10%;
     }
 }
 
