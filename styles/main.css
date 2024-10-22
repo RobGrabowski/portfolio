@@ -826,6 +826,10 @@ table{
     .fixed-nav{
         position: fixed !important;
     }
+    .logo-container {
+        padding-bottom: 5%;
+        width: 100%;
+    }
 }
 
 @media (max-width: 1200px ){
