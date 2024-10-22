@@ -648,14 +648,18 @@ table{
     flex: 50%;
 }
 .mini-cart-logos .logo-column .tnf-logo{
-    width: 80%;
+    width: 50%;
     padding-right: 10%;
     align-self: flex-end;
+    padding-right: 0;
+    padding-left: 0;
 }
 .mini-cart-logos .logo-column .vans-logo{
-    width: 90%;
+    width: 64%;
     padding-left: 10%;
     align-self: flex-start;
+    padding-right: 0;
+    padding-left: 0;
 }
 .mini-cart-solution{
     padding-bottom: 40px;
