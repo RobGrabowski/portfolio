@@ -754,6 +754,8 @@ table{
     margin-bottom: 0;
     padding-bottom: 2%;
     margin-left: 5%;
+    display: flex;
+    flex-direction: column;
     
 }
 .workshop-list-li {
