@@ -558,12 +558,7 @@ table{
     gap: 5%;
 }
 
-.tnf-logo-col{
-    width: 45%;
-}
-.vans-logo-col{
-    width: 55%;
-}
+
 .mini-cart-threshold{
     width: 100%;
     height: 100%;
@@ -670,6 +665,12 @@ table{
     align-self: flex-start;
     padding-right: 0;
     padding-left: 0;
+}
+.tnf-logo-col{
+    width: 45%;
+}
+.vans-logo-col{
+    width: 55%;
 }
 .mini-cart-solution{
     padding-bottom: 40px;
