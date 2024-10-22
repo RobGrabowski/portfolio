@@ -555,6 +555,7 @@ table{
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    gap: 5%;
 }
 .mini-cart-threshold{
     width: 100%;
@@ -568,6 +569,7 @@ table{
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+
 }
 
 .title-container{
@@ -642,6 +644,7 @@ table{
 }
 .mini-cart-logos .logo-column{
     display: flex;
+    width: 50%;
 }
 .mini-cart-logos .logo-column img{
     width: 100%;
