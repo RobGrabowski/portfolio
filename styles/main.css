@@ -666,10 +666,10 @@ table{
     padding-right: 0;
     padding-left: 0;
 }
-.tnf-logo-col{
+.mini-cart-logos .logo-column .tnf-logo-col{
     width: 45%;
 }
-.vans-logo-col{
+.mini-cart-logos .logo-column .vans-logo-col{
     width: 55%;
 }
 .mini-cart-solution{
