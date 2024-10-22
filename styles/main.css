@@ -646,7 +646,7 @@ table{
 }
 .mini-cart-logos .logo-column{
     display: flex;
-    width: 50%;
+    width: auto;
 }
 .mini-cart-logos .logo-column img{
     width: 100%;
