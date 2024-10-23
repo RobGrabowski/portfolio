@@ -535,9 +535,7 @@ content: '';
         display: flex;
         flex-direction: column;
     }
-    .mini-cart-logos {
-        width: 80%;
-    }
+    
 }
 @media (max-width: 1400px ){
     .responsive-menu-1{

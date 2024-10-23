@@ -1034,6 +1034,9 @@ table{
     .workshop-list{
         padding-bottom: 0;
     }
+    .mini-cart-logos {
+        width: 80%;
+    }
 }
 @media (max-width: 553px){
     .case-study-image{
