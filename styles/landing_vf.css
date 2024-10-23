@@ -528,6 +528,10 @@ content: '';
     .responsive-menu-1 li{
         float: none;
     }
+    .responsive-menu-secondary{
+        display: flex;
+        flex-direction: column;
+    }
 }
 @media (max-width: 1400px ){
     .responsive-menu-1{
