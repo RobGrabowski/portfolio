@@ -929,7 +929,7 @@ table{
     }
     .problem p, .solution p, .solution a, .process p, .study-results li, .conclusion p, .conclusion a{
         font-size: 1.2em;
-        padding-bottom: 2%;
+        padding-bottom: 4%;
     }
     .workshop-list {
         font-size: 1.1em;
@@ -1051,15 +1051,25 @@ table{
     .workshop-list{
         padding-bottom: 0;
     }
+    #workship-paragraph {
+        padding-bottom: 4%;
+    }
     .mini-cart-logos {
         width: 80%;
     }
     .flex-wrap {
        flex-direction: column;
     }
+    .row-two-col{
+        flex-direction: column;
+        text-align: center;
+    }
     .concepts{
         padding-bottom: 10%;
         width: 80%;
+    }
+    .mini-cart-solution-tnf{
+        width: 100%;
     }
 }
 @media (max-width: 553px){
