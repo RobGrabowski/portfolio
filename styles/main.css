@@ -190,6 +190,7 @@ table{
     background-color: #253149;
     color: #fff;
     min-height: 20%;
+    padding-bottom: 5%;
 }
 .link-box{
     border: 1px;
@@ -907,6 +908,9 @@ table{
         padding-bottom: 5%;
         text-align: left;
         
+    }
+    .solution-row{
+        padding-bottom: 2%;
     }
     .concepts {
         text-align: center;
