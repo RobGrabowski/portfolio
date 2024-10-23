@@ -1068,8 +1068,11 @@ table{
         padding-bottom: 10%;
         width: 80%;
     }
-    .mini-cart-solution-tnf{
+    .mini-cart-solution-tnf, .mini-cart-solution-vans{
         width: 100%;
+    }
+    .threshold-column{
+        width: 80%;
     }
 }
 @media (max-width: 553px){
