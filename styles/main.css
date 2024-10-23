@@ -1049,7 +1049,7 @@ table{
         flex-direction: column;
     }
     .workshop-list{
-        padding-bottom: 0;
+        padding-bottom: 10%;
     }
     #workship-paragraph {
         padding-bottom: 4%;
