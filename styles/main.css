@@ -1070,6 +1070,10 @@ table{
     }
     .mini-cart-solution-tnf, .mini-cart-solution-vans{
         width: 100%;
+        text-align: center;
+    }
+    .mini-cart-solution-tnf{
+        padding-bottom: 10%;
     }
     .threshold-column{
         width: 80%;
