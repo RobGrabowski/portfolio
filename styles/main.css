@@ -801,7 +801,7 @@ table{
 
 .mini-cart-prototype-buttons{
     display: flex;    
-    flex-direction: row; 
+    flex-direction: column; 
     flex-flow: wrap;
     padding-bottom: 5%;
 }
