@@ -441,6 +441,9 @@ content: '';
     .mini-cart-wrapper {
         width: 100%;
     }
+    .concepts {
+        text-align: center;
+    }
 /*
     .case-study.tone-control img{
         width: 60%;     
