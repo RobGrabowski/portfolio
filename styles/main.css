@@ -638,7 +638,7 @@ table{
 .two-col{
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
 }
 .row-two-col, .two-col img{
     width: 100%;
@@ -836,6 +836,9 @@ table{
         display: inline-block;
         padding-right: 20px;
     }
+    .workshop-list{
+        padding-bottom: 10%;
+    }
     .workshop-list-li {
         list-style-type: disc;
         font-family: 'Open Sans', sans-serif;
@@ -844,13 +847,16 @@ table{
         letter-spacing: 1.37px;
         line-height: 1.8;
         margin-bottom: 0;
-        padding-bottom: 1%;
+        padding-bottom: 2%;
         text-transform: none;
         display: list-item;
     }
     .weight-semi-bold {
         font-weight: 400;
-        font-size: 1.1em;
+        font-size: 1em;
+    }
+    #workship-paragraph {
+        font-size: 1em;
     }
     .logo {
         text-align: center;
@@ -922,8 +928,11 @@ table{
         text-align: left;
     }
     .problem p, .solution p, .solution a, .process p, .study-results li, .conclusion p, .conclusion a{
+        font-size: 1.2em;
+        padding-bottom: 2%;
+    }
+    .workshop-list {
         font-size: 1.1em;
-        padding-bottom: 5%;
     }
     .solution p:last-child{
         padding-bottom: 0;
