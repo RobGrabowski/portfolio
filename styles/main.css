@@ -1071,9 +1071,12 @@ table{
     .mini-cart-solution-tnf, .mini-cart-solution-vans{
         width: 100%;
         text-align: center;
+        padding-left: 0;
+        padding-right: 0;
     }
     .mini-cart-solution-tnf{
         padding-bottom: 10%;
+        padding-top: 10%;
     }
     .threshold-column{
         width: 80%;
