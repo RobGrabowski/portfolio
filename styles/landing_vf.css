@@ -528,7 +528,7 @@ content: '';
     .responsive-menu-1 li{
         float: none;
     }
-    .responsive-menu-secondary{
+    .responsive-menu-secondary ul{
         display: flex;
         flex-direction: column;
     }
