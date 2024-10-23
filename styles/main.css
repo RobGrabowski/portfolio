@@ -1041,6 +1041,13 @@ table{
     .mini-cart-logos {
         width: 80%;
     }
+    .flex-wrap {
+       flex-direction: column;
+    }
+    .concepts{
+        padding-bottom: 10%;
+        width: 80%;
+    }
 }
 @media (max-width: 553px){
     .case-study-image{
