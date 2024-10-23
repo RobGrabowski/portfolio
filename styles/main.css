@@ -803,6 +803,7 @@ table{
     display: flex;    
     flex-direction: row; 
     flex-flow: wrap;
+    padding-bottom: 5%;
 }
 
 .view-other-studies .border-tim img{
@@ -815,6 +816,10 @@ table{
 
 .links-container {
     padding-top: 10%;
+}
+
+.tnf-prototype{
+    padding-bottom: 1%;
 }
 @media (max-width: 1259px){
     .case-study-image{
