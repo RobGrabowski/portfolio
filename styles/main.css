@@ -894,6 +894,9 @@ table{
         text-align: left;
         
     }
+    .concepts {
+        text-align: center;
+    }
     .solution-col{
         text-align: center;
         padding-left: 0;
