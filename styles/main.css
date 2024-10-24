@@ -596,7 +596,7 @@ table{
     flex-direction: column;
     width: 100%;
     text-align: center;
-    padding-top: 2%;
+    padding-top: 5%;
 }
 
  .threshold-column img{
@@ -910,6 +910,9 @@ table{
         padding-bottom: 5%;
         text-align: left;
         
+    }
+    .threshold-title{
+        padding-top: 2%;
     }
     .mini-cart-solution-tnf, .mini-cart-solution-vans {
         padding-left: 5%;
