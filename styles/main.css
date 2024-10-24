@@ -791,7 +791,7 @@ table{
 }
 .workshop-img{
     display: inline-block;
-    width: 90%;
+    width: 100%;
     margin-left: auto;
     box-shadow: none;
     margin-right: auto;
@@ -1097,6 +1097,7 @@ table{
     }
     .threshold-column{
         width: 80%;
+        padding-left: 0;
     }
 }
 @media (max-width: 553px){
