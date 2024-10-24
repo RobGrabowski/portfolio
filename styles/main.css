@@ -737,7 +737,7 @@ table{
 
 }
 .mini-cart-solution-tnf img, .mini-cart-solution-vans img{
-    width: 100%;
+    width: 90%;
     margin-left: 0;
     box-shadow: none;
     margin: auto;
@@ -1110,6 +1110,12 @@ table{
     }
     .concepts {
         width: 100%;
+    }
+    .solution-row {
+        flex-direction: column;
+    }
+    .solution-col {
+        padding-bottom: 20%;
     }
 }
 
