@@ -949,6 +949,7 @@ table{
     }
     .workshop-list {
         font-size: 1.1em;
+        padding-right: 2%;
     }
     .solution p:last-child{
         padding-bottom: 0;
@@ -1065,7 +1066,7 @@ table{
         flex-direction: column;
     }
     .workshop-list{
-        padding-bottom: 10%;
+        padding-bottom: 0;
     }
     #workship-paragraph {
         padding-bottom: 4%;
