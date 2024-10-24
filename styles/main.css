@@ -913,6 +913,7 @@ table{
     .mini-cart-solution-tnf, .mini-cart-solution-vans {
         padding-left: 5%;
         padding-right: 5%;
+        text-align: center;
     }
     .solution-row{
         padding-bottom: 2%;
