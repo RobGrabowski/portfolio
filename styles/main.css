@@ -1004,6 +1004,9 @@ table{
     .about-right{
         padding-top: 5%; 
     }
+    .link-to-prototype a{
+        padding-bottom: 0;
+    }
 }
 @media (max-width: 768px ){
     .summary p{
