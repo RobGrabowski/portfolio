@@ -807,7 +807,7 @@ table{
     flex-direction: column; 
     padding-bottom: 5%;
     padding-top: 5%;
-    width: 50%;
+    width: auto;
 }
 
 .view-other-studies .border-tim img{
