@@ -277,6 +277,12 @@ table{
     margin-bottom: 50%;
 /*    margin-top: 20%;*/
 }
+.link-to-prototype{
+    padding: 3%;
+    border: 2px solid white;
+    margin-bottom: 50%;
+/*    margin-top: 20%;*/
+}
 .link-to-site.tasty-trucks{
     width: 30em;
     max-width: 325px;
