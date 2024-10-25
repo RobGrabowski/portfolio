@@ -829,6 +829,10 @@ table{
     margin-bottom: 2%;
 /*    margin-top: 20%;*/
 }
+.link-to-prototype a{
+    padding: 1% 2%;
+}
+
 @media (max-width: 1259px){
     .case-study-image{
         width: 32%;
