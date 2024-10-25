@@ -808,6 +808,7 @@ table{
     padding-top: 5%;
     width: auto;
     gap: 2%;
+    flex-wrap: wrap;
 }
 
 .view-other-studies .border-tim img{
