@@ -832,6 +832,9 @@ table{
 .link-to-prototype a{
     padding: 1% 2%;
 }
+.link-to-prototype a:hover{
+    padding-bottom: 0;
+}
 
 @media (max-width: 1259px){
     .case-study-image{
