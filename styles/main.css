@@ -929,6 +929,9 @@ table{
         text-align: left;
         
     }
+    .study-pad .link-to-prototype{
+        padding-bottom: 0;
+    }
     .threshold-title{
         padding-top: 2%;
     }
