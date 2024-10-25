@@ -836,7 +836,8 @@ table{
     text-align: center;
 }
 .link-to-prototype a:hover{
-    padding-bottom: 0;
+    padding: 1% 2%;
+    text-align: center;
 }
 
 @media (max-width: 1259px){
