@@ -804,10 +804,10 @@ table{
 
 .mini-cart-prototype-buttons{
     display: flex;    
-    flex-direction: column; 
     padding-bottom: 5%;
     padding-top: 5%;
     width: auto;
+    gap: 2%;
 }
 
 .view-other-studies .border-tim img{
@@ -829,7 +829,7 @@ table{
     padding: 0;
     border: 2px solid white;
     margin-bottom: 4%;
-/*    margin-top: 20%;*/
+    flex: 1 0 auto;
 }
 .link-to-prototype a{
     padding: 1% 2%;
