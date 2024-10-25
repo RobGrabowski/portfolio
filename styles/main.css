@@ -806,6 +806,7 @@ table{
     display: flex;    
     flex-direction: column; 
     padding-bottom: 5%;
+    padding-top: 5%;
     width: 50%;
 }
 
@@ -827,11 +828,12 @@ table{
 .link-to-prototype{
     padding: 0;
     border: 2px solid white;
-    margin-bottom: 2%;
+    margin-bottom: 4%;
 /*    margin-top: 20%;*/
 }
 .link-to-prototype a{
     padding: 1% 2%;
+    text-align: center;
 }
 .link-to-prototype a:hover{
     padding-bottom: 0;
