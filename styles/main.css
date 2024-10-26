@@ -1128,6 +1128,12 @@ table{
         padding-left: 0;
     }
 }
+@media (max-width: 600px){
+    .link-to-prototype {
+        flex: 1 1 auto;
+    }
+
+}
 @media (max-width: 553px){
     .case-study-image{
         width: 100%;
