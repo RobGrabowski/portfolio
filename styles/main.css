@@ -841,6 +841,19 @@ table{
     text-align: center;
 }
 
+/*  BEING HAL */
+
+.logo-section{
+    background-color: #fff;
+}
+.logo-column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* END HAL */ 
+
 @media (max-width: 1259px){
     .case-study-image{
         width: 32%;
