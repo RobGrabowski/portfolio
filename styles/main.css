@@ -845,11 +845,12 @@ table{
 
 .logo-section{
     background-color: #fff;
+    display: flex;
 }
 .logo-column {
-    display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
+    padding: 5% 0;
 }
 
 /* END HAL */ 
