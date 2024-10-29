@@ -859,6 +859,7 @@ table{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 0;
 }
 /* END HAL */ 
 
