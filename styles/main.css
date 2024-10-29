@@ -842,6 +842,9 @@ table{
 }
 
 /*  BEING HAL */
+.hal-summary p{
+    padding-bottom: 10%;
+}
 
 .logo-section{
     background-color: #fff;
