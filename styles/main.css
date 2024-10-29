@@ -843,7 +843,7 @@ table{
 
 /*  BEING HAL */
 .hal-summary p{
-    padding-bottom: 10%;
+    padding-bottom: 10% !important;
 }
 
 .logo-section{
