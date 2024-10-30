@@ -435,7 +435,10 @@ table{
     font-size: 1.1em;
     text-transform: uppercase;
     font-weight: 300;
-    
+       
+}
+.conclusion .link-to-site a:visited {
+    color: #fff;
 }
 .ype, .left-link, .ype:hover, .left-link:hover{
         margin-left: 100px !important;
