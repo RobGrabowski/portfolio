@@ -876,9 +876,10 @@ table{
     box-shadow: none;
 }
 .process .mockup-title{ 
-    padding-bottom: 0; 
+    padding-bottom: 2%; 
     font-weight: 400; 
     padding-top: 4%; 
+    padding-left: 0;
     font-size: 1.2em; 
 }
 /* END HAL */ 
