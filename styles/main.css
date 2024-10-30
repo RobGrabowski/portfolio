@@ -861,6 +861,12 @@ table{
     align-items: center;
     padding: 0 0;
 }
+.one-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0;
+}
 /* END HAL */ 
 
 @media (max-width: 1259px){
