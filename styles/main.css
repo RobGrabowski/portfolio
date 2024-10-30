@@ -881,6 +881,7 @@ table{
     padding-top: 4%; 
     padding-left: 0;
     font-size: 1.2em; 
+    text-transform: uppercase;
 }
 /* END HAL */ 
 
