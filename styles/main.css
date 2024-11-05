@@ -57,6 +57,7 @@ table{
 .summary p:last-child{
     padding-bottom: 20%;
     width: 60%;
+    text-align: center;
 }
 .study-intro-text{
     background-image: url(../assets/glasses3.png);
