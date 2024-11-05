@@ -1036,6 +1036,9 @@ table{
     .conclusion .link-to-site{
         text-align: center !important;
     }
+    .conclusion .link-to-site a:visited{
+        color: '#ffffff';
+    }
     .footer{
         text-align: center;
         line-height: 2;
