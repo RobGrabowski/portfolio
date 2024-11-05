@@ -56,6 +56,7 @@ table{
 }
 .summary p:last-child{
     padding-bottom: 20%;
+    width: 60%;
 }
 .study-intro-text{
     background-image: url(../assets/glasses3.png);
@@ -1200,6 +1201,9 @@ table{
     }
     .solution-col {
         padding-bottom: 20%;
+    }
+    .summary p:last-child{
+        width: 100%;
     }
 }
 
