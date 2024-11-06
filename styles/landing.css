@@ -476,7 +476,7 @@ content: '';
     }
     .hal-row{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         width: 100%;
     }
     .read-more-wrapper{
