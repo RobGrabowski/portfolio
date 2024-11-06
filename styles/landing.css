@@ -469,6 +469,11 @@ content: '';
         text-align: center;
          width: 70%;
     }
+    .hal-row{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
     .read-more-wrapper{
         margin-bottom: 10%;
     }
