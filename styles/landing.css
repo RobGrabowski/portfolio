@@ -132,7 +132,7 @@ text-shadow: 1px 1px 0 #767471;
     border-color: #7D1311 !important;
     float: right;
     height: auto;
-    width: 70%;
+    width: 65%;
     cursor: pointer;
 }
 .tasty-trucks video{
@@ -376,6 +376,20 @@ content: '';
     width: 100%;
     justify-content: space-between;
     padding-top: 10%;
+}
+.hal-row h3{
+    width: 90%;
+    font-weight: 300;
+    letter-spacing: 1.37px;
+    line-height: 1.5;
+    font-size: 1.5em;
+}
+.hal-row h2{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2.66px;
+    font-weight: 400;
 }
 .hal-row img{
     width: 60%;
