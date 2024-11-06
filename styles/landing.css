@@ -370,6 +370,11 @@ nav > li > a:hover{
 .links-container a:last-child:after {
 content: '';
 }
+.hal-row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
 .footer .intro-text:nth-child(2){
     padding-top: 20px;
 }
