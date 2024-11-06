@@ -375,6 +375,7 @@ content: '';
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
+    padding-top: 10%;
 }
 .hal-row img{
     width: 60%;
@@ -482,6 +483,7 @@ content: '';
         display: flex;
         flex-direction: column;
         width: 100%;
+        padding-top: 10%;
     }
     .read-more-wrapper{
         margin-bottom: 10%;
