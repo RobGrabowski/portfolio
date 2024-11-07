@@ -525,6 +525,9 @@ content: '';
         width: 100%;
         padding-top: 10%;
     }
+    .case-row .media-container{
+        width: 90%;
+    }
     .case-name-wrapper{
         display: flex;
         flex-direction: column;
