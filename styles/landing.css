@@ -518,6 +518,12 @@ content: '';
         width: 100%;
         padding-top: 10%;
     }
+    .case-name-wrapper{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        justify-content: center;  
+    }
     .read-more-wrapper{
         margin-bottom: 10%;
     }
