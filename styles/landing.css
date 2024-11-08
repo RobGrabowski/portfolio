@@ -426,7 +426,7 @@ content: '';
     padding: 0;
     justify-content: center;  
 }
-.tone-img{
+.case-row .tone-img{
     width: 90%;
 }
 .footer .intro-text:nth-child(2){
