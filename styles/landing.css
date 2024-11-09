@@ -370,6 +370,11 @@ nav > li > a:hover{
 .links-container a:last-child:after {
 content: '';
 }
+.case-col{
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+}
 .case-row{
     display: flex;
     flex-direction: row;
