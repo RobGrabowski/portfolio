@@ -539,9 +539,7 @@ content: '';
         text-align: center;
          width: 70%;
     }
-    .rev-col{
-        flex-direction: column-reverse;
-    }
+    
     .case-row{
         display: flex;
         flex-direction: column;
@@ -552,7 +550,9 @@ content: '';
     .case-row .media-container img{
         width: 90%;
     }
-
+    .rev-col{
+        flex-direction: column-reverse;
+    }
     .case-name-wrapper {
         display: flex;
         flex-direction: column;
