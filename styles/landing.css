@@ -373,7 +373,7 @@ content: '';
 .case-col{
     display: flex;
     flex-direction: column;
-    gap: 5rem;
+    gap: 15rem;
 }
 .case-row{
     display: flex;
