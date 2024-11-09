@@ -493,6 +493,9 @@ content: '';
     .case-study.tone-control{
         margin-bottom: 5%;
     }
+    .case-col{
+        gap: 5em;
+    }
     .row-two-col {
         flex-direction: column-reverse;
         justify-content: center;
@@ -547,7 +550,7 @@ content: '';
         width: 90%;
     }
 
-    .case-name-wrapper{
+    .case-name-wrapper, .case-name-wrapper-tone{
         display: flex;
         flex-direction: column;
         padding: 0;
