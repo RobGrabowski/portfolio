@@ -539,6 +539,9 @@ content: '';
         text-align: center;
          width: 70%;
     }
+    .rev-col{
+        flex-direction: column-reverse;
+    }
     .case-row{
         display: flex;
         flex-direction: column;
