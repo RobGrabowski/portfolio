@@ -382,6 +382,9 @@ content: '';
     justify-content: space-between;
     padding-top:0;
 }
+.case-row .media-container{
+    text-align: left;
+}
 .case-row h3{
     width: 90%;
     font-weight: 300;
@@ -546,6 +549,9 @@ content: '';
         width: 100%;
         padding-top: 10%;
         align-items: center;
+    }
+    .case-row .media-container{
+        text-align: center;
     }
     .case-row .media-container img{
         width: 90%;
