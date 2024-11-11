@@ -598,6 +598,9 @@ content: '';
     .tasty-trucks img, .eyestylist img, .tone-control img, .winery img {
         width: 80%;
     }
+    .case-row img{
+        width: 90%;
+    }
 }
 @media (max-width: 768px ){
     .responsive-menu-1{
