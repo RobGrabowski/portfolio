@@ -431,6 +431,7 @@ content: '';
     padding: 0;
     justify-content: center;  
     width: 30%;
+    text-align: left;
 }
 .case-name-wrapper-tone{
     display: flex;
@@ -570,6 +571,7 @@ content: '';
         justify-content: center;  
         align-items: center;
         width: 50%;
+        text-align: center;
     }
     .case-name-wrapper-tone{
         display: flex;
