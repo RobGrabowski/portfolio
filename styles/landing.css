@@ -601,6 +601,9 @@ content: '';
     .case-row img{
         width: 90%;
     }
+    .case-row .eye-img {
+        width: 90%;
+    }
 }
 @media (max-width: 768px ){
     .responsive-menu-1{
