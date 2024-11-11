@@ -581,6 +581,7 @@ content: '';
         justify-content: center;  
         align-items: center;
         width: 50%;
+        text-align: center;
     }
     .case-row h3{
         text-align: center  ;
