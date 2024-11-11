@@ -681,4 +681,7 @@ content: '';
     .case-col > div:first-child {
         padding-top: 40%;
     }
+    .intro-text{
+        font-size: 1.3em;
+    }
 }
