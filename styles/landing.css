@@ -641,6 +641,9 @@ content: '';
         padding-bottom: 10%;
 */
     }
+    .case-name-wrapper{
+        width: 80%;
+    }
 }
 
 @media (max-width: 600px ){
