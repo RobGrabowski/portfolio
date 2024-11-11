@@ -651,9 +651,13 @@ content: '';
     .case-name-wrapper{
         width: 80%;
     }
+    .case-name-wrapper-tone {
+        width: 80%;
+    }
     .case-col > div:first-child {
         padding-top: 20%;
     }
+    
 }
 
 @media (max-width: 600px ){
