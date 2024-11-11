@@ -376,7 +376,7 @@ content: '';
     gap: 20rem;
 }
 .case-col div:first-child{
-    padding-top: 10px;
+    padding-top: 10%;
 }
 
 .case-row{
