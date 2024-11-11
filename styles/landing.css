@@ -375,9 +375,10 @@ content: '';
     flex-direction: column;
     gap: 20rem;
 }
-case-col:first-child{
+.case-col:first-child{
     padding-top: 10px;
 }
+
 .case-row{
     display: flex;
     flex-direction: row;
