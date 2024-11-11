@@ -375,6 +375,9 @@ content: '';
     flex-direction: column;
     gap: 20rem;
 }
+case-col:first-child{
+    padding-top: 10px;
+}
 .case-row{
     display: flex;
     flex-direction: row;
@@ -547,7 +550,7 @@ content: '';
         display: flex;
         flex-direction: column;
         width: 100%;
-        padding-top: 10%;
+        padding-top: 0;
         align-items: center;
     }
     .case-row .media-container{
