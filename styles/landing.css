@@ -249,6 +249,12 @@ text-shadow: 1px 1px 0 #767471;
     width: 100%;
     margin: 20px;
 }
+.lets-chat a{
+    color: #ffffff;
+}
+.lets-chat a:visited{
+    color: #ffffff;
+}
 .case-study .button a, .intro-text .lets-chat a{
     color: #ffffff;
     text-decoration: none;
