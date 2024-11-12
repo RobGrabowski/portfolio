@@ -420,7 +420,7 @@ content: '';
 .case-row .media-container{
     text-align: left;
 }
-.case-row h3{
+.case-row h3, .footer-like{
     width: 90%;
     font-weight: 300;
     letter-spacing: 1.37px;
@@ -615,7 +615,7 @@ content: '';
         width: 50%;
         text-align: center;
     }
-    .case-row h3{
+    .case-row h3, .footer-like{
         text-align: center  ;
     }
     .read-more-wrapper{
@@ -623,6 +623,13 @@ content: '';
     }
     .case-col > div:first-child {
         gap: 2em;
+    }
+    .case-row .button {
+        padding: 10px 20px;
+    }
+    .lets-chat {
+        padding: 5px 10px;
+        max-width: 125px;
     }
     .footer{
         
