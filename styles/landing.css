@@ -231,8 +231,23 @@ text-shadow: 1px 1px 0 #767471;
     font-size: .8em;
 }
 .lets-chat{
-    padding: 5px 5px;
-    font-size: .8em;
+    background-color: #253149;
+    border: none;
+    color: #ffffff;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 1em;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    max-width: 150px;
+    width: 100%;
+    margin: 20px;
 }
 .case-study .button a, .intro-text .lets-chat a{
     color: #ffffff;
