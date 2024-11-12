@@ -228,9 +228,14 @@ text-shadow: 1px 1px 0 #767471;
     margin-top: 0;
     margin-bottom: 50px;
 }
+.lets-chat{
+    padding: 5px 5px;
+    font-size: .8em;
+}
 .case-study .button a, .intro-text .lets-chat a{
     color: #ffffff;
     text-decoration: none;
+    font-size: .8em;
 }
 .mobile-nav-2{
     display: none;
